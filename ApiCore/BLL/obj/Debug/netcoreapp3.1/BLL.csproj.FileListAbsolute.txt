@@ -1,0 +1,14 @@
+L:\实训一\汽车租赁项目\ApiCore\BLL\obj\Debug\netcoreapp3.1\BLL.csprojAssemblyReference.cache
+L:\实训一\汽车租赁项目\ApiCore\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CoreCompileInputs.cache
+L:\实训一\汽车租赁项目\ApiCore\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfoInputs.cache
+L:\实训一\汽车租赁项目\ApiCore\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfo.cs
+L:\实训一\汽车租赁项目\ApiCore\BLL\bin\Debug\netcoreapp3.1\DAL.dll
+L:\实训一\汽车租赁项目\ApiCore\BLL\bin\Debug\netcoreapp3.1\Model.dll
+L:\实训一\汽车租赁项目\ApiCore\BLL\bin\Debug\netcoreapp3.1\Model.pdb
+L:\实训一\汽车租赁项目\ApiCore\BLL\bin\Debug\netcoreapp3.1\BLL.deps.json
+L:\实训一\汽车租赁项目\ApiCore\BLL\bin\Debug\netcoreapp3.1\BLL.dll
+L:\实训一\汽车租赁项目\ApiCore\BLL\bin\Debug\netcoreapp3.1\BLL.pdb
+L:\实训一\汽车租赁项目\ApiCore\BLL\bin\Debug\netcoreapp3.1\DAL.pdb
+L:\实训一\汽车租赁项目\ApiCore\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CopyComplete
+L:\实训一\汽车租赁项目\ApiCore\BLL\obj\Debug\netcoreapp3.1\BLL.dll
+L:\实训一\汽车租赁项目\ApiCore\BLL\obj\Debug\netcoreapp3.1\BLL.pdb
