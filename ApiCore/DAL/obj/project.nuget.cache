@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AG3BKLAG4yXhmKsPCoaoYhwRTWEzkfihkgXFdPex5ELSVOJ/kpXjxFA+3qr0anb0mgVSuxk+whBCWV5Uj1hbsA==",
+  "dgSpecHash": "gmNtzj3JocNhmFSHNa7PyGcrPnJHvydhmrHCHuJeHw3ek6JZ3QHQAiXQ66O8Qr67QSMf7EhQ7V/SC+Utt+U6Cg==",
   "success": true,
-  "projectFilePath": "L:\\实训一\\汽车租赁项目\\ApiCore\\DAL\\DAL.csproj",
+  "projectFilePath": "D:\\物联网\\实训\\Car\\ApiCore\\DAL\\DAL.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
