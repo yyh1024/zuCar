@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9bZTDjp6nOo9ZvApZutbu+H7Z1VXpb3RgxzlMMnKC8x9gv0T5YrHmNArVucyGDIqNT3JynQh5LHMsUkqK1f4pw==",
+  "dgSpecHash": "HjOFD5O+faLTZraVHjavOdt74yQY2izR7R7npQcD24zRfI5lc5Ld18YNDDmKMek/bZ8Y1TXmVlVVxlmUfcLdvA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lenovo\\source\\repos\\zuCar\\ApiCore\\BLL\\BLL.csproj",
+  "projectFilePath": "L:\\实训一\\汽车租赁项目\\ApiCore\\BLL\\BLL.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

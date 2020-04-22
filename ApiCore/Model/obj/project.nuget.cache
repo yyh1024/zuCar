@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q4wHPFMQnu6mW3zzwx3wTOIVllEy6UGfx/2m82Vb9Tqmn4WhnT4TmNH53wX6UVjLx5qtEzqdKg8IuB+zOEu6sA==",
+  "dgSpecHash": "bqr0qiv6VXINxCCvvNSkYW2nOo1X6BSMDtQXhXNQQlpNwTWK8cpao3STJFTYrOgYKkgBsZ215KmuTufuHixdKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lenovo\\source\\repos\\zuCar\\ApiCore\\Model\\Model.csproj",
+  "projectFilePath": "L:\\实训一\\汽车租赁项目\\ApiCore\\Model\\Model.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
