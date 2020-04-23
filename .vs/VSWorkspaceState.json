@@ -1,8 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ApiCore",
-    "\\ApiCore\\Model"
+    "\\ApiCore"
   ],
+  "SelectedNode": "\\ApiCore\\ApiCore.sln",
   "PreviewInSolutionExplorer": false
 }
