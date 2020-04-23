@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Model
+namespace DAL
 {
-    public class UserModel
+    public class Verify
     {
-        public int MyProperty { get; set; }
+        
     }
 }
