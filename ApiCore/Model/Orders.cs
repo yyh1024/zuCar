@@ -17,6 +17,6 @@ namespace Model
         public bool Driver { get; set; }
         public decimal Price { get; set; }
         public int ZT { get; set; }
-        public bool Hitch { get; set; }
+        public int Hitch { get; set; }
     }
 }
