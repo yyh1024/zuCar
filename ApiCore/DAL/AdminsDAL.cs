@@ -9,33 +9,27 @@ namespace DAL
 {
     public class AdminsDAL
     {
-        string Conn = "Data Source =.; Initial Catalog = Pcr;Integrated Security = True";
+
         //车辆预定信息
         public List<Orders> OrderShow()
         {
-            using (SqlConnection conn = new SqlConnection(Conn))
-            {
-                conn.Open();
-                SqlCommand cmd = conn.CreateCommand();
-                cmd.CommandText = "select * from Orders";
-                SqlDataAdapter da = new SqlDataAdapter(cmd);
-                DataTable dt = new DataTable();
-                da.Fill(dt);
+            string str = $"select * from Orders";
+            return DBHelper.GetToList<Orders>(str);
+        }
 
-                var mess = new List<MessInfo>();
-                foreach (DataRow i in dt.Rows)
-                {
-                    var m = new MessInfo();
-                    m.ID = Convert.ToInt32(i["ID"].ToString());
-                    m.UserId = Convert.ToInt32(i["UserId"].ToString());
-                    m.Content = i["Content"].ToString();
-                    m.Time = Convert.ToDateTime(i["Time"].ToString());
-                    m.ZT = Convert.ToBoolean(i["ZT"].ToString());
-                    m.UserName = i["UserName"].ToString();
-                    mess.Add(m);
-                }
-                return mess;
-            }
+        //挂靠车辆信息
+        public List<Va> VaShow()
+        {
+            string str = $"select * from Va";
+            return DBHelper.GetToList<Va>(str);
+        }
+
+        //新增车辆
+        public int AddCarInfo(CarInfo c)
+        {
+            c.Address = "郑州市中原区建设路西三环百车汇汽车租赁有限公司";
+            string AddCar = $"insert into CarInfo values('{c.Image}',{c.bid},'{c.CarName},{c.Years},{c.cid},'{c.CC}',{c.Count},'{c.AMT}',{c.Price}')";
+            return DBHelper.ExecuteNonQuery(AddCar);
         }
     }
 }

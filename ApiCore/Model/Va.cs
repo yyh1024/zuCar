@@ -17,5 +17,6 @@ namespace Model
         public string AMT { get; set; }
         public decimal Price { get; set; }
         public bool Vstate { get; set; }
+        public int uid { get; set; }
     }
 }
