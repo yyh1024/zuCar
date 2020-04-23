@@ -7,7 +7,7 @@ namespace DAL
 {
     public class UserDAL
     {
-        
+
         /// <summary>
         /// 注册用户
         /// </summary>
@@ -27,7 +27,7 @@ namespace DAL
         public int Login(UserModel m)
         {
             string sql = "select count(1) from Users where Name='" + m.Name + "' and Pwd='" + m.Pwd + "' and Email='" + m.Email + "'";
-            return (int)DBHelper.ExecuteNonQuery(sql);
+            return (int)DBHelper.ExecuteScalar(sql);
         }
         /// <summary>
         /// 修改用户信息
