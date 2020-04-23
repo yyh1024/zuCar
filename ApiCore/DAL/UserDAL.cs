@@ -22,7 +22,7 @@ namespace DAL
         /// <summary>
         /// 登录用户
         /// </summary>
-        /// <param name="i"></param>
+        /// <param name="m"></param>
         /// <returns></returns>
         public int Login(UserModel m)
         {
@@ -42,7 +42,7 @@ namespace DAL
         /// <summary>
         /// 删除用户信息
         /// </summary>
-        /// <param name="m"></param>
+        /// <param name="id"></param>
         /// <returns></returns>
         public int DelUsers(string id)
         {
