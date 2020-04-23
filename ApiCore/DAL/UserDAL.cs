@@ -7,7 +7,7 @@ namespace DAL
 {
     public class UserDAL
     {
-        DBHelper db = new DBHelper();
+        
         /// <summary>
         /// 注册用户
         /// </summary>
@@ -16,7 +16,7 @@ namespace DAL
         public int AddUsers(UserModel m)
         {
             string str = $"insert into Users values('{m.Name}','{m.Pwd}','{m.Email}')";
-            return db.ExecuteNonQuery(str);
+            return DBHelper.ExecuteNonQuery(str);
         }
 
         /// <summary>
@@ -27,7 +27,7 @@ namespace DAL
         public int Login(UserModel m)
         {
             string sql = "select count(1) from Users where Name='" + m.Name + "' and Pwd='" + m.Pwd + "' and Email='" + m.Email + "'";
-            return (int)db.ExecuteScalar(sql);
+            return (int)DBHelper.ExecuteNonQuery(sql);
         }
         /// <summary>
         /// 修改用户信息
@@ -37,7 +37,7 @@ namespace DAL
         public int AlterUsers(UserModel m)
         {
             string str = $"update Users set Name='{m.Name}',Pwd='{m.Pwd}',Email='{m.Email}'where Uid={m.Uid}";
-            return db.ExecuteNonQuery(str);
+            return DBHelper.ExecuteNonQuery(str);
         }
         /// <summary>
         /// 删除用户信息
@@ -46,8 +46,8 @@ namespace DAL
         /// <returns></returns>
         public int DelUsers(string id)
         {
-            string str = $"delete from Users where Uid in("+id+")";
-            return db.ExecuteNonQuery(str);
+            string str = $"delete from Users where Uid in(" + id + ")";
+            return DBHelper.ExecuteNonQuery(str);
         }
     }
 }
