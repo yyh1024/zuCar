@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kFFguhsr2kee/atfVyDD6nQdf6eJuC+rBa5c+Al4WmPK3DtI15InQHQEfoFQZS8eL9iuQKZEEqHXsHpAocFLuA==",
+  "dgSpecHash": "9tUlZQLSk67nMnw3GViWj/mP56d91bBis52saYTne5s7ZQzW/++I/yaP6TMWkQxT/2UTysK7/FM0p5JlIPZ58A==",
   "success": true,
-  "projectFilePath": "D:\\物联网\\实训\\Car\\ApiCore\\ApiCore\\ApiCore.csproj",
+  "projectFilePath": "L:\\实训一\\汽车租赁项目\\ApiCore\\ApiCore\\ApiCore.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -6,6 +6,9 @@ namespace Model
 {
     public class UserModel
     {
-        public int MyProperty { get; set; }
+        public int Uid { get; set; }
+        public string Name { get; set; }
+        public string Pwd { get; set; }
+        public string Email { get; set; }
     }
 }
