@@ -11,6 +11,7 @@ using System.Data.SqlClient;
 
 namespace ApiCore.Controllers
 {
+    [EnableCors("any")] //跨域配置
     [Route("api/[controller]")]
     [ApiController]
     public class Admins3Controller : ControllerBase
