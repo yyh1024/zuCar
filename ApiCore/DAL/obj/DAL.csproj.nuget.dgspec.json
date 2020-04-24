@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\DAL\\DAL.csproj": {}
+    "L:\\实训一\\汽车租赁项目\\ApiCore\\DAL\\DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\DAL\\DAL.csproj": {
+    "L:\\实训一\\汽车租赁项目\\ApiCore\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\DAL\\DAL.csproj",
+        "projectUniqueName": "L:\\实训一\\汽车租赁项目\\ApiCore\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\o\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\DAL\\obj\\",
+        "projectPath": "L:\\实训一\\汽车租赁项目\\ApiCore\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\吕静\\.nuget\\packages\\",
+        "outputPath": "L:\\实训一\\汽车租赁项目\\ApiCore\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\o\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\吕静\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\Model\\Model.csproj"
+              "L:\\实训一\\汽车租赁项目\\ApiCore\\Model\\Model.csproj": {
+                "projectPath": "L:\\实训一\\汽车租赁项目\\ApiCore\\Model\\Model.csproj"
               }
             }
           }
@@ -71,21 +71,21 @@
         }
       }
     },
-    "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\Model\\Model.csproj": {
+    "L:\\实训一\\汽车租赁项目\\ApiCore\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\Model\\Model.csproj",
+        "projectUniqueName": "L:\\实训一\\汽车租赁项目\\ApiCore\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\Model\\Model.csproj",
-        "packagesPath": "C:\\Users\\o\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\Model\\obj\\",
+        "projectPath": "L:\\实训一\\汽车租赁项目\\ApiCore\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\吕静\\.nuget\\packages\\",
+        "outputPath": "L:\\实训一\\汽车租赁项目\\ApiCore\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\o\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\吕静\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -109,12 +109,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "dependencies": {
-            "System.Data.SqlClient": {
-              "target": "Package",
-              "version": "[4.8.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

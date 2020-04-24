@@ -13,7 +13,7 @@ namespace DAL
         /// </summary>
         /// <param name="m"></param>
         /// <returns></returns>
-        public int AddUsers(Users m)
+        public int AddUsers(model Users m)
         {
             string str = $"insert into Users values('{m.Name}','{m.Pwd}','{m.Email}')";
             return DBHelper.ExecuteNonQuery(str);
