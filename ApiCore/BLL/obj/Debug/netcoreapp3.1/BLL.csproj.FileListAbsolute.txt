@@ -26,3 +26,17 @@ D:\物联网\实训\Car\ApiCore\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfo.cs
 D:\物联网\实训\Car\ApiCore\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CopyComplete
 D:\物联网\实训\Car\ApiCore\BLL\obj\Debug\netcoreapp3.1\BLL.dll
 D:\物联网\实训\Car\ApiCore\BLL\obj\Debug\netcoreapp3.1\BLL.pdb
+C:\Users\o\Source\Repos\zuCar\ApiCore\BLL\obj\Debug\netcoreapp3.1\BLL.csprojAssemblyReference.cache
+C:\Users\o\Source\Repos\zuCar\ApiCore\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CoreCompileInputs.cache
+C:\Users\o\Source\Repos\zuCar\ApiCore\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfoInputs.cache
+C:\Users\o\Source\Repos\zuCar\ApiCore\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfo.cs
+C:\Users\o\Source\Repos\zuCar\ApiCore\BLL\obj\Debug\netcoreapp3.1\BLL.dll
+C:\Users\o\Source\Repos\zuCar\ApiCore\BLL\obj\Debug\netcoreapp3.1\BLL.pdb
+C:\Users\o\Source\Repos\zuCar\ApiCore\BLL\bin\Debug\netcoreapp3.1\BLL.deps.json
+C:\Users\o\Source\Repos\zuCar\ApiCore\BLL\bin\Debug\netcoreapp3.1\BLL.dll
+C:\Users\o\Source\Repos\zuCar\ApiCore\BLL\bin\Debug\netcoreapp3.1\BLL.pdb
+C:\Users\o\Source\Repos\zuCar\ApiCore\BLL\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\o\Source\Repos\zuCar\ApiCore\BLL\bin\Debug\netcoreapp3.1\Model.dll
+C:\Users\o\Source\Repos\zuCar\ApiCore\BLL\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\o\Source\Repos\zuCar\ApiCore\BLL\bin\Debug\netcoreapp3.1\Model.pdb
+C:\Users\o\Source\Repos\zuCar\ApiCore\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CopyComplete
