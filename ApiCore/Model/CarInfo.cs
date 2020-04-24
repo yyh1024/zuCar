@@ -17,5 +17,6 @@ namespace Model
         public string AMT { get; set; }
         public decimal Price { get; set; }
         public string Address { get; set; }
+        public int Count { get; set; }
     }
 }

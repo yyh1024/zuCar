@@ -12,7 +12,7 @@ namespace DAL
     public class DBHelper
     {
         //连接数据库
-        static SqlConnection conn = new SqlConnection("Data Source=.;Initial Catalog=4Table;Integrated Security=True");
+        static SqlConnection conn = new SqlConnection("Data Source=.;Initial Catalog=Pcr;Integrated Security=True");
         static SqlDataReader sdr;
         /// <summary>
         /// 获取数据流  查询、显示、绑定下拉
