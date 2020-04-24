@@ -16,8 +16,6 @@ namespace DAL
             return DBHelper.GetToList<CarInfo>(CarInfo);
         }
 
-
-
         //车辆挂靠
         public int AddVa(Va v)
         {
