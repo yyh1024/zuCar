@@ -7,14 +7,19 @@ namespace DAL
 {
     public class UserDAL
     {
-
+        SendEmail email = new SendEmail();
         /// <summary>
         /// 注册用户
         /// </summary>
         /// <param name="m"></param>
         /// <returns></returns>
-        public int AddUsers(UserModel m)
+        public int AddUsers(User m)
         {
+            email.SendMassage(m.Email);
+            if (sess)
+            {
+
+            }
             string str = $"insert into Users values('{m.Name}','{m.Pwd}','{m.Email}')";
             return DBHelper.ExecuteNonQuery(str);
         }
@@ -24,7 +29,7 @@ namespace DAL
         /// </summary>
         /// <param name="m"></param>
         /// <returns></returns>
-        public int Login(UserModel m)
+        public int Login(User m)
         {
             string sql = "select count(1) from Users where Name='" + m.Name + "' and Pwd='" + m.Pwd + "' and Email='" + m.Email + "'";
             return (int)DBHelper.ExecuteScalar(sql);
@@ -34,7 +39,7 @@ namespace DAL
         /// </summary>
         /// <param name="m"></param>
         /// <returns></returns>
-        public int AlterUsers(UserModel m)
+        public int AlterUsers(User m)
         {
             string str = $"update Users set Name='{m.Name}',Pwd='{m.Pwd}',Email='{m.Email}'where Uid={m.Uid}";
             return DBHelper.ExecuteNonQuery(str);

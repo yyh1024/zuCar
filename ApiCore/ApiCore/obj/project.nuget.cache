@@ -1,18 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "KLbEuwyJfEiq5DgLZVI0kq2nxkzsyjnecx3JsEcx7WSUm7qSuXCxj5hGBklzgW3wUgOJfdt1Rh9H1Ti87OOFDQ==",
+  "dgSpecHash": "OIV8udPVsoMGPyHgfp9A+45PlbLFTA4AhtlT6m/yXGtrnvTr02ebZdmdqpy+2Bw4BNzwwXF3eRMiB3AwktpjJg==",
   "success": true,
-  "projectFilePath": "D:\\物联网\\实训\\Car\\ApiCore\\ApiCore\\ApiCore.csproj",
+  "projectFilePath": "L:\\实训一\\汽车租赁项目\\ApiCore\\ApiCore\\ApiCore.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\张凯\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
-    "C:\\Users\\张凯\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
-    "C:\\Users\\张凯\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "C:\\Users\\吕静\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\吕静\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\吕静\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
-    "C:\\Users\\张凯\\.nuget\\packages\\system.data.sqlclient\\4.8.1\\system.data.sqlclient.4.8.1.nupkg.sha512",
-    "C:\\Users\\张凯\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
-    "C:\\Users\\张凯\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+    "C:\\Users\\吕静\\.nuget\\packages\\system.data.sqlclient\\4.8.1\\system.data.sqlclient.4.8.1.nupkg.sha512",
+    "C:\\Users\\吕静\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\吕静\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

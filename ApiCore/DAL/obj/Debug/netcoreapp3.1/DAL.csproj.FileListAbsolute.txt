@@ -1,5 +1,4 @@
 L:\实训一\汽车租赁项目\ApiCore\DAL\obj\Debug\netcoreapp3.1\DAL.csprojAssemblyReference.cache
-L:\实训一\汽车租赁项目\ApiCore\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
 L:\实训一\汽车租赁项目\ApiCore\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
 L:\实训一\汽车租赁项目\ApiCore\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
 L:\实训一\汽车租赁项目\ApiCore\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
