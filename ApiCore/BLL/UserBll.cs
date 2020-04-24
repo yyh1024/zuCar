@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 using Model;
+using DAL;
 
-namespace DAL
+namespace BLL
 {
-    public class UserDAL
+    public class UserBll
     {
-
+        UserDAL userDAL = new UserDAL();
         /// <summary>
         /// 注册用户
         /// </summary>
@@ -15,8 +16,8 @@ namespace DAL
         /// <returns></returns>
         public int AddUsers(Users m)
         {
-            string str = $"insert into Users values('{m.Name}','{m.Pwd}','{m.Email}')";
-            return DBHelper.ExecuteNonQuery(str);
+
+            return userDAL.AddUsers(m);
         }
 
         /// <summary>
@@ -26,8 +27,8 @@ namespace DAL
         /// <returns></returns>
         public int Login(Users m)
         {
-            string sql = "select count(1) from Users where Name='" + m.Name + "' and Pwd='" + m.Pwd + "' and Email='" + m.Email + "'";
-            return (int)DBHelper.ExecuteScalar(sql);
+
+            return userDAL.Login(m);
         }
         /// <summary>
         /// 修改用户信息
@@ -36,8 +37,8 @@ namespace DAL
         /// <returns></returns>
         public int AlterUsers(Users m)
         {
-            string str = $"update Users set Name='{m.Name}',Pwd='{m.Pwd}',Email='{m.Email}'where Uid={m.Uid}";
-            return DBHelper.ExecuteNonQuery(str);
+
+            return userDAL.AlterUsers(m);
         }
         /// <summary>
         /// 删除用户信息
@@ -46,8 +47,8 @@ namespace DAL
         /// <returns></returns>
         public int DelUsers(string id)
         {
-            string str = $"delete from Users where Uid in(" + id + ")";
-            return DBHelper.ExecuteNonQuery(str);
+
+            return userDAL.DelUsers(id);
         }
     }
 }

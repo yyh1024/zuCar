@@ -6,13 +6,13 @@ using System.Net.Mail;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using System.Windows.Forms;
 
-namespace WindowsFormsApp1
+
+namespace DAL
 {
     public class MailVeriCodeClass
     {
-        #region  邮箱验证码功能
+        //邮箱验证码功能
         /// <summary>
         ///  生成随机验证码
         /// </summary>
@@ -111,6 +111,6 @@ namespace WindowsFormsApp1
             }
             return false;
         }
-        #endregion
+        
     }
 }
