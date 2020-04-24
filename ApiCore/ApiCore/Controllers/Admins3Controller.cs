@@ -8,9 +8,11 @@ using Model;
 using BLL;
 using System.Data;
 using System.Data.SqlClient;
+using Microsoft.AspNetCore.Cors;
 
 namespace ApiCore.Controllers
 {
+    [EnableCors("any")] //跨域配置
     [Route("api/[controller]")]
     [ApiController]
     public class Admins3Controller : ControllerBase
