@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\物联网\\实训\\Car\\ApiCore\\ApiCore\\ApiCore.csproj": {}
+    "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\ApiCore\\ApiCore.csproj": {}
   },
   "projects": {
-    "D:\\物联网\\实训\\Car\\ApiCore\\ApiCore\\ApiCore.csproj": {
+    "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\ApiCore\\ApiCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\物联网\\实训\\Car\\ApiCore\\ApiCore\\ApiCore.csproj",
+        "projectUniqueName": "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\ApiCore\\ApiCore.csproj",
         "projectName": "ApiCore",
-        "projectPath": "D:\\物联网\\实训\\Car\\ApiCore\\ApiCore\\ApiCore.csproj",
-        "packagesPath": "C:\\Users\\张凯\\.nuget\\packages\\",
-        "outputPath": "D:\\物联网\\实训\\Car\\ApiCore\\ApiCore\\obj\\",
+        "projectPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\ApiCore\\ApiCore.csproj",
+        "packagesPath": "C:\\Users\\o\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\ApiCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\张凯\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\o\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,11 +32,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\物联网\\实训\\Car\\ApiCore\\BLL\\BLL.csproj": {
-                "projectPath": "D:\\物联网\\实训\\Car\\ApiCore\\BLL\\BLL.csproj"
+              "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\BLL\\BLL.csproj"
               },
-              "D:\\物联网\\实训\\Car\\ApiCore\\Model\\Model.csproj": {
-                "projectPath": "D:\\物联网\\实训\\Car\\ApiCore\\Model\\Model.csproj"
+              "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\Model\\Model.csproj"
               }
             }
           }
@@ -52,7 +52,7 @@
           "dependencies": {
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[3.1.1, )"
+              "version": "[3.1.2, )"
             }
           },
           "imports": [
@@ -73,25 +73,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\物联网\\实训\\Car\\ApiCore\\BLL\\BLL.csproj": {
+    "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\物联网\\实训\\Car\\ApiCore\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "D:\\物联网\\实训\\Car\\ApiCore\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\张凯\\.nuget\\packages\\",
-        "outputPath": "D:\\物联网\\实训\\Car\\ApiCore\\BLL\\obj\\",
+        "projectPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\o\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\张凯\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\o\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -105,11 +105,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\物联网\\实训\\Car\\ApiCore\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\物联网\\实训\\Car\\ApiCore\\DAL\\DAL.csproj"
+              "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\DAL\\DAL.csproj"
               },
-              "D:\\物联网\\实训\\Car\\ApiCore\\Model\\Model.csproj": {
-                "projectPath": "D:\\物联网\\实训\\Car\\ApiCore\\Model\\Model.csproj"
+              "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\Model\\Model.csproj"
               }
             }
           }
@@ -143,25 +143,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\物联网\\实训\\Car\\ApiCore\\DAL\\DAL.csproj": {
+    "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\物联网\\实训\\Car\\ApiCore\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\物联网\\实训\\Car\\ApiCore\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\张凯\\.nuget\\packages\\",
-        "outputPath": "D:\\物联网\\实训\\Car\\ApiCore\\DAL\\obj\\",
+        "projectPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\o\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\张凯\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\o\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -175,8 +175,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\物联网\\实训\\Car\\ApiCore\\Model\\Model.csproj": {
-                "projectPath": "D:\\物联网\\实训\\Car\\ApiCore\\Model\\Model.csproj"
+              "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\Model\\Model.csproj"
               }
             }
           }
@@ -210,25 +210,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\物联网\\实训\\Car\\ApiCore\\Model\\Model.csproj": {
+    "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\物联网\\实训\\Car\\ApiCore\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "D:\\物联网\\实训\\Car\\ApiCore\\Model\\Model.csproj",
-        "packagesPath": "C:\\Users\\张凯\\.nuget\\packages\\",
-        "outputPath": "D:\\物联网\\实训\\Car\\ApiCore\\Model\\obj\\",
+        "projectPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\o\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\张凯\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\o\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -273,7 +273,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
