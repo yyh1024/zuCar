@@ -1,22 +1,32 @@
 {
   "format": 1,
   "restore": {
+    "C:\\Users\\Lenovo\\source\\repos\\zuCar\\ApiCore\\ApiCore\\ApiCore.csproj": {}
     "D:\\A_Githup\\CarThis\\ApiCore\\ApiCore\\ApiCore.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Lenovo\\source\\repos\\zuCar\\ApiCore\\ApiCore\\ApiCore.csproj": {
     "D:\\A_Githup\\CarThis\\ApiCore\\ApiCore\\ApiCore.csproj": {
       "version": "1.0.0",
       "restore": {
+        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\zuCar\\ApiCore\\ApiCore\\ApiCore.csproj",
         "projectUniqueName": "D:\\A_Githup\\CarThis\\ApiCore\\ApiCore\\ApiCore.csproj",
         "projectName": "ApiCore",
+        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\zuCar\\ApiCore\\ApiCore\\ApiCore.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\zuCar\\ApiCore\\ApiCore\\obj\\",
         "projectPath": "D:\\A_Githup\\CarThis\\ApiCore\\ApiCore\\ApiCore.csproj",
         "packagesPath": "C:\\Users\\96549\\.nuget\\packages\\",
         "outputPath": "D:\\A_Githup\\CarThis\\ApiCore\\ApiCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
           "C:\\Users\\96549\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -30,9 +40,13 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+              "C:\\Users\\Lenovo\\source\\repos\\zuCar\\ApiCore\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\zuCar\\ApiCore\\BLL\\BLL.csproj"
               "D:\\A_Githup\\CarThis\\ApiCore\\BLL\\BLL.csproj": {
                 "projectPath": "D:\\A_Githup\\CarThis\\ApiCore\\BLL\\BLL.csproj"
               },
+              "C:\\Users\\Lenovo\\source\\repos\\zuCar\\ApiCore\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\zuCar\\ApiCore\\Model\\Model.csproj"
               "D:\\A_Githup\\CarThis\\ApiCore\\Model\\Model.csproj": {
                 "projectPath": "D:\\A_Githup\\CarThis\\ApiCore\\Model\\Model.csproj"
               }
@@ -51,23 +65,44 @@
             "net461"
           ],
           "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
           "warn": true
         }
       }
     },
+    "C:\\Users\\Lenovo\\source\\repos\\zuCar\\ApiCore\\BLL\\BLL.csproj": {
     "D:\\A_Githup\\CarThis\\ApiCore\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
+        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\zuCar\\ApiCore\\BLL\\BLL.csproj",
         "projectUniqueName": "D:\\A_Githup\\CarThis\\ApiCore\\BLL\\BLL.csproj",
         "projectName": "BLL",
+        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\zuCar\\ApiCore\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\zuCar\\ApiCore\\BLL\\obj\\",
         "projectPath": "D:\\A_Githup\\CarThis\\ApiCore\\BLL\\BLL.csproj",
         "packagesPath": "C:\\Users\\96549\\.nuget\\packages\\",
         "outputPath": "D:\\A_Githup\\CarThis\\ApiCore\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
           "C:\\Users\\96549\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -81,9 +116,13 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+              "C:\\Users\\Lenovo\\source\\repos\\zuCar\\ApiCore\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\zuCar\\ApiCore\\DAL\\DAL.csproj"
               "D:\\A_Githup\\CarThis\\ApiCore\\DAL\\DAL.csproj": {
                 "projectPath": "D:\\A_Githup\\CarThis\\ApiCore\\DAL\\DAL.csproj"
               },
+              "C:\\Users\\Lenovo\\source\\repos\\zuCar\\ApiCore\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\zuCar\\ApiCore\\Model\\Model.csproj"
               "D:\\A_Githup\\CarThis\\ApiCore\\Model\\Model.csproj": {
                 "projectPath": "D:\\A_Githup\\CarThis\\ApiCore\\Model\\Model.csproj"
               }
@@ -102,23 +141,39 @@
             "net461"
           ],
           "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
           "warn": true
         }
       }
     },
+    "C:\\Users\\Lenovo\\source\\repos\\zuCar\\ApiCore\\DAL\\DAL.csproj": {
     "D:\\A_Githup\\CarThis\\ApiCore\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
+        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\zuCar\\ApiCore\\DAL\\DAL.csproj",
         "projectUniqueName": "D:\\A_Githup\\CarThis\\ApiCore\\DAL\\DAL.csproj",
         "projectName": "DAL",
+        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\zuCar\\ApiCore\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\zuCar\\ApiCore\\DAL\\obj\\",
         "projectPath": "D:\\A_Githup\\CarThis\\ApiCore\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\96549\\.nuget\\packages\\",
         "outputPath": "D:\\A_Githup\\CarThis\\ApiCore\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
           "C:\\Users\\96549\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -132,6 +187,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+              "C:\\Users\\Lenovo\\source\\repos\\zuCar\\ApiCore\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\zuCar\\ApiCore\\Model\\Model.csproj"
               "D:\\A_Githup\\CarThis\\ApiCore\\Model\\Model.csproj": {
                 "projectPath": "D:\\A_Githup\\CarThis\\ApiCore\\Model\\Model.csproj"
               }
@@ -150,23 +207,39 @@
             "net461"
           ],
           "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
           "warn": true
         }
       }
     },
+    "C:\\Users\\Lenovo\\source\\repos\\zuCar\\ApiCore\\Model\\Model.csproj": {
     "D:\\A_Githup\\CarThis\\ApiCore\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
+        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\zuCar\\ApiCore\\Model\\Model.csproj",
         "projectUniqueName": "D:\\A_Githup\\CarThis\\ApiCore\\Model\\Model.csproj",
         "projectName": "Model",
+        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\zuCar\\ApiCore\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\zuCar\\ApiCore\\Model\\obj\\",
         "projectPath": "D:\\A_Githup\\CarThis\\ApiCore\\Model\\Model.csproj",
         "packagesPath": "C:\\Users\\96549\\.nuget\\packages\\",
         "outputPath": "D:\\A_Githup\\CarThis\\ApiCore\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
           "C:\\Users\\96549\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -194,6 +267,13 @@
             "net461"
           ],
           "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
           "warn": true
         }
       }

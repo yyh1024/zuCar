@@ -8,14 +8,20 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
+    "C:\\Users\\Lenovo\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Users\\96549\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+      "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\zuCar\\ApiCore\\Model\\Model.csproj",
       "projectUniqueName": "D:\\A_Githup\\CarThis\\ApiCore\\Model\\Model.csproj",
       "projectName": "Model",
+      "projectPath": "C:\\Users\\Lenovo\\source\\repos\\zuCar\\ApiCore\\Model\\Model.csproj",
+      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lenovo\\source\\repos\\zuCar\\ApiCore\\Model\\obj\\",
       "projectPath": "D:\\A_Githup\\CarThis\\ApiCore\\Model\\Model.csproj",
       "packagesPath": "C:\\Users\\96549\\.nuget\\packages\\",
       "outputPath": "D:\\A_Githup\\CarThis\\ApiCore\\Model\\obj\\",
@@ -24,6 +30,9 @@
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
+        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         "C:\\Users\\96549\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -51,6 +60,13 @@
           "net461"
         ],
         "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         "warn": true
       }
     }
