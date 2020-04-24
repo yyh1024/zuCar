@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ApiCore",
-    "\\ApiCore\\Model"
+    "\\ApiCore"
   ],
-  "SelectedNode": "\\ApiCore\\Model\\UserModel.cs",
+  "SelectedNode": "\\ApiCore\\DAL",
   "PreviewInSolutionExplorer": false
 }

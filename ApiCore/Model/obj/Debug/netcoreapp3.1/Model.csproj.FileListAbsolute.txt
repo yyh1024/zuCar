@@ -16,3 +16,11 @@ D:\物联网\实训\Car\ApiCore\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfo
 D:\物联网\实训\Car\ApiCore\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfo.cs
 D:\物联网\实训\Car\ApiCore\Model\obj\Debug\netcoreapp3.1\Model.dll
 D:\物联网\实训\Car\ApiCore\Model\obj\Debug\netcoreapp3.1\Model.pdb
+C:\Users\o\Source\Repos\zuCar\ApiCore\Model\bin\Debug\netcoreapp3.1\Model.deps.json
+C:\Users\o\Source\Repos\zuCar\ApiCore\Model\bin\Debug\netcoreapp3.1\Model.dll
+C:\Users\o\Source\Repos\zuCar\ApiCore\Model\bin\Debug\netcoreapp3.1\Model.pdb
+C:\Users\o\Source\Repos\zuCar\ApiCore\Model\obj\Debug\netcoreapp3.1\Model.csproj.CoreCompileInputs.cache
+C:\Users\o\Source\Repos\zuCar\ApiCore\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfoInputs.cache
+C:\Users\o\Source\Repos\zuCar\ApiCore\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfo.cs
+C:\Users\o\Source\Repos\zuCar\ApiCore\Model\obj\Debug\netcoreapp3.1\Model.dll
+C:\Users\o\Source\Repos\zuCar\ApiCore\Model\obj\Debug\netcoreapp3.1\Model.pdb
