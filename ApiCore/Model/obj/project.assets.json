@@ -451,25 +451,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\o\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\张凯\\.nuget\\packages\\": {},
+    "D:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\Model\\Model.csproj",
+      "projectUniqueName": "D:\\物联网\\实训\\Car\\ApiCore\\Model\\Model.csproj",
       "projectName": "Model",
-      "projectPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\Model\\Model.csproj",
-      "packagesPath": "C:\\Users\\o\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\ApiCore\\Model\\obj\\",
+      "projectPath": "D:\\物联网\\实训\\Car\\ApiCore\\Model\\Model.csproj",
+      "packagesPath": "C:\\Users\\张凯\\.nuget\\packages\\",
+      "outputPath": "D:\\物联网\\实训\\Car\\ApiCore\\Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "D:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\o\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\张凯\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -514,7 +514,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
