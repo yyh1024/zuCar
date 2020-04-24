@@ -8,6 +8,7 @@ using Model;
 using BLL;
 using System.Data;
 using System.Data.SqlClient;
+using Microsoft.AspNetCore.Cors;
 
 namespace ApiCore.Controllers
 {
