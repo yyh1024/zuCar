@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\物联网\\实训\\Car\\ApiCore\\ApiCore\\ApiCore.csproj": {}
+    "L:\\实训一\\汽车租赁项目\\ApiCore\\ApiCore\\ApiCore.csproj": {}
   },
   "projects": {
-    "D:\\物联网\\实训\\Car\\ApiCore\\ApiCore\\ApiCore.csproj": {
+    "L:\\实训一\\汽车租赁项目\\ApiCore\\ApiCore\\ApiCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\物联网\\实训\\Car\\ApiCore\\ApiCore\\ApiCore.csproj",
+        "projectUniqueName": "L:\\实训一\\汽车租赁项目\\ApiCore\\ApiCore\\ApiCore.csproj",
         "projectName": "ApiCore",
-        "projectPath": "D:\\物联网\\实训\\Car\\ApiCore\\ApiCore\\ApiCore.csproj",
-        "packagesPath": "C:\\Users\\张凯\\.nuget\\packages\\",
-        "outputPath": "D:\\物联网\\实训\\Car\\ApiCore\\ApiCore\\obj\\",
+        "projectPath": "L:\\实训一\\汽车租赁项目\\ApiCore\\ApiCore\\ApiCore.csproj",
+        "packagesPath": "C:\\Users\\吕静\\.nuget\\packages\\",
+        "outputPath": "L:\\实训一\\汽车租赁项目\\ApiCore\\ApiCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\张凯\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\吕静\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,11 +32,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\物联网\\实训\\Car\\ApiCore\\BLL\\BLL.csproj": {
-                "projectPath": "D:\\物联网\\实训\\Car\\ApiCore\\BLL\\BLL.csproj"
+              "L:\\实训一\\汽车租赁项目\\ApiCore\\BLL\\BLL.csproj": {
+                "projectPath": "L:\\实训一\\汽车租赁项目\\ApiCore\\BLL\\BLL.csproj"
               },
-              "D:\\物联网\\实训\\Car\\ApiCore\\Model\\Model.csproj": {
-                "projectPath": "D:\\物联网\\实训\\Car\\ApiCore\\Model\\Model.csproj"
+              "L:\\实训一\\汽车租赁项目\\ApiCore\\Model\\Model.csproj": {
+                "projectPath": "L:\\实训一\\汽车租赁项目\\ApiCore\\Model\\Model.csproj"
               }
             }
           }
@@ -50,13 +50,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "Microsoft.AspNetCore.Mvc.Cors": {
+            "Microsoft.AspNet.WebApi.Core": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[5.2.7, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.2, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
             }
           },
           "imports": [
@@ -77,25 +81,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\物联网\\实训\\Car\\ApiCore\\BLL\\BLL.csproj": {
+    "L:\\实训一\\汽车租赁项目\\ApiCore\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\物联网\\实训\\Car\\ApiCore\\BLL\\BLL.csproj",
+        "projectUniqueName": "L:\\实训一\\汽车租赁项目\\ApiCore\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "D:\\物联网\\实训\\Car\\ApiCore\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\张凯\\.nuget\\packages\\",
-        "outputPath": "D:\\物联网\\实训\\Car\\ApiCore\\BLL\\obj\\",
+        "projectPath": "L:\\实训一\\汽车租赁项目\\ApiCore\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\吕静\\.nuget\\packages\\",
+        "outputPath": "L:\\实训一\\汽车租赁项目\\ApiCore\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\张凯\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\吕静\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -109,11 +113,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\物联网\\实训\\Car\\ApiCore\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\物联网\\实训\\Car\\ApiCore\\DAL\\DAL.csproj"
+              "L:\\实训一\\汽车租赁项目\\ApiCore\\DAL\\DAL.csproj": {
+                "projectPath": "L:\\实训一\\汽车租赁项目\\ApiCore\\DAL\\DAL.csproj"
               },
-              "D:\\物联网\\实训\\Car\\ApiCore\\Model\\Model.csproj": {
-                "projectPath": "D:\\物联网\\实训\\Car\\ApiCore\\Model\\Model.csproj"
+              "L:\\实训一\\汽车租赁项目\\ApiCore\\Model\\Model.csproj": {
+                "projectPath": "L:\\实训一\\汽车租赁项目\\ApiCore\\Model\\Model.csproj"
               }
             }
           }
@@ -147,25 +151,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\物联网\\实训\\Car\\ApiCore\\DAL\\DAL.csproj": {
+    "L:\\实训一\\汽车租赁项目\\ApiCore\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\物联网\\实训\\Car\\ApiCore\\DAL\\DAL.csproj",
+        "projectUniqueName": "L:\\实训一\\汽车租赁项目\\ApiCore\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\物联网\\实训\\Car\\ApiCore\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\张凯\\.nuget\\packages\\",
-        "outputPath": "D:\\物联网\\实训\\Car\\ApiCore\\DAL\\obj\\",
+        "projectPath": "L:\\实训一\\汽车租赁项目\\ApiCore\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\吕静\\.nuget\\packages\\",
+        "outputPath": "L:\\实训一\\汽车租赁项目\\ApiCore\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\张凯\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\吕静\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -179,8 +183,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\物联网\\实训\\Car\\ApiCore\\Model\\Model.csproj": {
-                "projectPath": "D:\\物联网\\实训\\Car\\ApiCore\\Model\\Model.csproj"
+              "L:\\实训一\\汽车租赁项目\\ApiCore\\Model\\Model.csproj": {
+                "projectPath": "L:\\实训一\\汽车租赁项目\\ApiCore\\Model\\Model.csproj"
               }
             }
           }
@@ -214,25 +218,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\物联网\\实训\\Car\\ApiCore\\Model\\Model.csproj": {
+    "L:\\实训一\\汽车租赁项目\\ApiCore\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\物联网\\实训\\Car\\ApiCore\\Model\\Model.csproj",
+        "projectUniqueName": "L:\\实训一\\汽车租赁项目\\ApiCore\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "D:\\物联网\\实训\\Car\\ApiCore\\Model\\Model.csproj",
-        "packagesPath": "C:\\Users\\张凯\\.nuget\\packages\\",
-        "outputPath": "D:\\物联网\\实训\\Car\\ApiCore\\Model\\obj\\",
+        "projectPath": "L:\\实训一\\汽车租赁项目\\ApiCore\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\吕静\\.nuget\\packages\\",
+        "outputPath": "L:\\实训一\\汽车租赁项目\\ApiCore\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\张凯\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\吕静\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -256,12 +260,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "dependencies": {
-            "System.Data.SqlClient": {
-              "target": "Package",
-              "version": "[4.8.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -277,7 +275,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
