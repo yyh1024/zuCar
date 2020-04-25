@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Cors.Infrastructure;
+using Microsoft.AspNetCore.Hosting;//
+using Microsoft.AspNetCore.Http;//
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -24,21 +26,44 @@ namespace CarAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
-
             //配置跨域处理，允许所有来源
-            services.AddCors(options =>
+            services.AddCors(options => options.AddPolicy("CorsPolicy",
+            builder =>
             {
-                options.AddPolicy("any", builder =>
-                {
-                    builder.AllowAnyOrigin() //允许任何来源的主机访问
-                    //builder.WithOrigins("http://localhost:8080") ////允许http://localhost:8080的主机访问
-                    .AllowAnyMethod()
+                builder.AllowAnyMethod()
+                    .SetIsOriginAllowed(_ => true)
                     .AllowAnyHeader()
-                    .AllowCredentials();//指定处理cookie
+                    .AllowCredentials();
+            }));
 
-                });
-            });
+            services.AddControllers();
+        }
+
+        public class CorsMiddleware
+        {
+            private readonly RequestDelegate next;
+
+            public CorsMiddleware(RequestDelegate next)
+            {
+                this.next = next;
+            }
+            public async Task Invoke(HttpContext context)
+            {
+                if (context.Request.Headers.ContainsKey(CorsConstants.Origin))
+                {
+                    context.Response.Headers.Add("Access-Control-Allow-Origin", context.Request.Headers["Origin"]);
+                    context.Response.Headers.Add("Access-Control-Allow-Methods", "PUT,POST,GET,DELETE,OPTIONS,HEAD,PATCH");
+                    context.Response.Headers.Add("Access-Control-Allow-Headers", context.Request.Headers["Access-Control-Request-Headers"]);
+                    context.Response.Headers.Add("Access-Control-Allow-Credentials", "true");
+
+                    if (context.Request.Method.Equals("OPTIONS"))
+                    {
+                        context.Response.StatusCode = StatusCodes.Status200OK;
+                        return;
+                    }
+                }
+                await next(context);
+            }
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -49,9 +74,9 @@ namespace CarAPI
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseCors("any");
+            app.UseMiddleware<CorsMiddleware>();
 
-            app.UseMvc();
+            //app.UseMvc();
 
             app.UseRouting();
 

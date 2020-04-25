@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Cors;
 
 namespace ApiCore.Controllers
 {
-    [EnableCors("any")] //跨域配置
+    //[EnableCors("any")] //跨域配置
     [Route("api/[controller]")]
     [ApiController]
     public class Admins2Controller : ControllerBase
@@ -27,11 +27,11 @@ namespace ApiCore.Controllers
         }
 
         // GET: api/Admins2/5
-        [HttpGet("{id}", Name = "Get")]
-        public string Get(int id)
-        {
-            return "value";
-        }
+        //[HttpGet("{id}", Name = "Get2")]
+        //public string Get(int id)
+        //{
+        //    return "value";
+        //}
 
         // POST: api/Admins2
         [HttpPost]

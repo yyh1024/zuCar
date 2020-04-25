@@ -6,3 +6,4 @@ D:\物联网\实训\Car\CarAPI\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfoI
 D:\物联网\实训\Car\CarAPI\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfo.cs
 D:\物联网\实训\Car\CarAPI\Model\obj\Debug\netcoreapp3.1\Model.dll
 D:\物联网\实训\Car\CarAPI\Model\obj\Debug\netcoreapp3.1\Model.pdb
+D:\物联网\实训\Car\CarAPI\Model\obj\Debug\netcoreapp3.1\Model.csprojAssemblyReference.cache

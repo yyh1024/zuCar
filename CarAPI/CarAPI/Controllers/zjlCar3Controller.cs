@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Cors;
 
 namespace ApiCore.Controllers
 {
-    [EnableCors("any")] //跨域配置
+    //[EnableCors("any")] //跨域配置
     [Route("api/[controller]")]
     [ApiController]
     public class zjlCar3Controller : ControllerBase
@@ -27,7 +27,7 @@ namespace ApiCore.Controllers
         }
 
         // GET: api/zjlCar3/5
-        [HttpGet("{id}", Name = "Get")]
+        //[HttpGet("{id}", Name = "Get")]
         //public string Get(int id)
         //{
         //    return "value";
