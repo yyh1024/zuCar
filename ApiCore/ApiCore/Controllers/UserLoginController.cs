@@ -1,49 +1,43 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Model;
 using BLL;
-using System.Data;
-using System.Data.SqlClient;
-using Microsoft.AspNetCore.Cors;
+using DAL;
 
 namespace ApiCore.Controllers
 {
-    [EnableCors("any")] //跨域配置
     [Route("api/[controller]")]
     [ApiController]
-    public class Admins3Controller : ControllerBase
+    public class UserLoginController : ControllerBase
     {
-        AdminsBLL bll = new AdminsBLL();
-
-        // GET: api/Admins3
+        UserBll userBll = new UserBll();
+        // GET: api/UserLogin
         [HttpGet]
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
         }
 
-        // GET: api/Admins3/5
+        // GET: api/UserLogin/5
         [HttpGet("{id}", Name = "Get")]
         public string Get(int id)
         {
             return "value";
         }
 
-        // POST: api/Admins3
+        // POST: api/UserLogin
         [HttpPost]
-        public void Post([FromBody] string value)
+        public int Post([FromBody] Users m)
         {
+            MailVeriCodeClass.SendMailMessage(m.Email);
+            return userBll.Login(m);
         }
 
-        //修改故障状态为：有待商议
+        // PUT: api/UserLogin/5
         [HttpPut("{id}")]
-        public int Put([FromBody] Orders o)
+        public void Put(int id, [FromBody] string value)
         {
-            return bll.UptOrdersDisAgree(o);
         }
 
         // DELETE: api/ApiWithActions/5

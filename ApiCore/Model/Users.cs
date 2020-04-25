@@ -4,7 +4,6 @@ using System.Text;
 
 namespace Model
 {
-    //用户登录表
     public class Users
     {
         public int Uid { get; set; }
