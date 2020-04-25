@@ -10,6 +10,15 @@ namespace BLL
     {
         UserDAL userDAL = new UserDAL();
         /// <summary>
+        /// 显示全部用户
+        /// </summary>
+        /// <returns></returns>
+        public List<Users> UserShow()
+        {
+
+            return userDAL.UserShow();
+        }
+        /// <summary>
         /// 注册用户
         /// </summary>
         /// <param name="m"></param>

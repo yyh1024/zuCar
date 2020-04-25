@@ -56,14 +56,15 @@ namespace DAL
         /// </summary>
         /// <param name="RecEmailAddress">收件人邮箱地址</param>
         /// <returns></returns>
-        public static string SendMailMessage(string RecEmailAddress)
+        public static bool SendMailMessage(string RecEmailAddress)
         {
+            string code = CreateRandomMailCode();
             MailMessage mail = new MailMessage();
             mail.From = new MailAddress("643241336@qq.com", "【车百汇】");//发件人邮箱地址
             mail.To.Add(new MailAddress(RecEmailAddress));//收件人邮箱地址
             mail.Subject = "【车百汇系统】";//邮件标题
             mail.SubjectEncoding = Encoding.UTF8;//标题编码
-            mail.Body = "这封信是由 -【百车汇租赁】-官方 发送的。\r\n\r\n您的验证码为：" + CreateRandomMailCode() + "\r\n\r\n您收到这封" +
+            mail.Body = "这封信是由 -【百车汇租赁】-官方 发送的。\r\n\r\n您的验证码为：" + code + "\r\n\r\n您收到这封" +
                   "邮件，是由于在 -【百车汇租赁】-官网 获取了新用户注册/用户登录时使用了这个邮箱地址。如果您并没有访问过 -【百车汇租赁】-" +
                   "官网，或没有进行上述操作，请忽略这封邮件。\r\n\r\n您不需要退订或进行其他进一步的操作。";//邮件内容     
             mail.BodyEncoding = Encoding.UTF8;//正文编码
@@ -76,7 +77,9 @@ namespace DAL
             client.Port = 587;//SMTP端口465或587
             client.EnableSsl = true;//使用安全加密SSL连接  
             client.DeliveryMethod = SmtpDeliveryMethod.Network;
-            client.Credentials = new NetworkCredential("643241336@qq.com", "hgtpkkbqibcgbahg");//验证发件人身份(发件人邮箱，邮箱授权码);                   
+            client.Credentials = new NetworkCredential("643241336@qq.com", "hgtpkkbqibcgbahg");//验证发件人身份(发件人邮箱，邮箱授权码);          
+            
+             
 
             try
             {
@@ -84,9 +87,10 @@ namespace DAL
             }
             catch (Exception ex)
             {
-                throw;
+                
+                return false;
             }
-            return CreateRandomMailCode();
+            return true;
         }
 
 
@@ -95,17 +99,17 @@ namespace DAL
         /// </summary>
         /// <param name="mail">邮箱</param>
         /// <returns></returns>
-        public static bool CheckMail(string mail)
-        {
-            string str = @"^[1-9][0-9]{4,}@qq.com$";
-            Regex mReg = new Regex(str);
+        //public static bool CheckMail(string mail)
+        //{
+        //    string str = @"^[1-9][0-9]{4,}@qq.com$";
+        //    Regex mReg = new Regex(str);
 
-            if (mReg.IsMatch(mail))
-            {
-                return true;
-            }
-            return false;
-        }
+        //    if (mReg.IsMatch(mail))
+        //    {
+        //        return true;
+        //    }
+        //    return false;
+        //}
 
     }
 }
