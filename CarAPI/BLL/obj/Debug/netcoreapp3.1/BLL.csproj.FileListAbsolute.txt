@@ -3,3 +3,12 @@ D:\物联网\实训\Car\CarAPI\BLL\bin\Debug\netcoreapp3.1\BLL.dll
 D:\物联网\实训\Car\CarAPI\BLL\obj\Debug\netcoreapp3.1\BLL.csprojAssemblyReference.cache
 D:\物联网\实训\Car\CarAPI\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfoInputs.cache
 D:\物联网\实训\Car\CarAPI\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfo.cs
+D:\物联网\实训\Car\CarAPI\BLL\bin\Debug\netcoreapp3.1\BLL.pdb
+D:\物联网\实训\Car\CarAPI\BLL\bin\Debug\netcoreapp3.1\DAL.dll
+D:\物联网\实训\Car\CarAPI\BLL\bin\Debug\netcoreapp3.1\Model.dll
+D:\物联网\实训\Car\CarAPI\BLL\bin\Debug\netcoreapp3.1\DAL.pdb
+D:\物联网\实训\Car\CarAPI\BLL\bin\Debug\netcoreapp3.1\Model.pdb
+D:\物联网\实训\Car\CarAPI\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CoreCompileInputs.cache
+D:\物联网\实训\Car\CarAPI\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CopyComplete
+D:\物联网\实训\Car\CarAPI\BLL\obj\Debug\netcoreapp3.1\BLL.dll
+D:\物联网\实训\Car\CarAPI\BLL\obj\Debug\netcoreapp3.1\BLL.pdb

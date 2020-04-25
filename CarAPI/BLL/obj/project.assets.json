@@ -130,6 +130,30 @@
             "rid": "win"
           }
         }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Model": "1.0.0",
+          "System.Data.SqlClient": "4.8.1"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
       }
     }
   },
@@ -443,10 +467,22 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "DAL/1.0.0": {
+      "type": "project",
+      "path": "../DAL/DAL.csproj",
+      "msbuildProject": "../DAL/DAL.csproj"
+    },
+    "Model/1.0.0": {
+      "type": "project",
+      "path": "../Model/Model.csproj",
+      "msbuildProject": "../Model/Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "DAL >= 1.0.0",
+      "Model >= 1.0.0",
       "System.Data.SqlClient >= 4.8.1"
     ]
   },
@@ -482,7 +518,14 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\物联网\\实训\\Car\\CarAPI\\DAL\\DAL.csproj": {
+              "projectPath": "D:\\物联网\\实训\\Car\\CarAPI\\DAL\\DAL.csproj"
+            },
+            "D:\\物联网\\实训\\Car\\CarAPI\\Model\\Model.csproj": {
+              "projectPath": "D:\\物联网\\实训\\Car\\CarAPI\\Model\\Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
