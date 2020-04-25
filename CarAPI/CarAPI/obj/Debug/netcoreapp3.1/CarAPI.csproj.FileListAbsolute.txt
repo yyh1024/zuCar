@@ -1,0 +1,17 @@
+D:\物联网\实训\Car\CarAPI\CarAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\物联网\实训\Car\CarAPI\CarAPI\bin\Debug\netcoreapp3.1\appsettings.json
+D:\物联网\实训\Car\CarAPI\CarAPI\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\物联网\实训\Car\CarAPI\CarAPI\bin\Debug\netcoreapp3.1\CarAPI.exe
+D:\物联网\实训\Car\CarAPI\CarAPI\obj\Debug\netcoreapp3.1\CarAPI.csprojAssemblyReference.cache
+D:\物联网\实训\Car\CarAPI\CarAPI\obj\Debug\netcoreapp3.1\CarAPI.AssemblyInfoInputs.cache
+D:\物联网\实训\Car\CarAPI\CarAPI\obj\Debug\netcoreapp3.1\CarAPI.AssemblyInfo.cs
+D:\物联网\实训\Car\CarAPI\CarAPI\obj\Debug\netcoreapp3.1\CarAPI.RazorTargetAssemblyInfo.cache
+D:\物联网\实训\Car\CarAPI\CarAPI\obj\Debug\netcoreapp3.1\staticwebassets\CarAPI.StaticWebAssets.Manifest.cache
+D:\物联网\实训\Car\CarAPI\CarAPI\obj\Debug\netcoreapp3.1\staticwebassets\CarAPI.StaticWebAssets.xml
+D:\物联网\实训\Car\CarAPI\CarAPI\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\物联网\实训\Car\CarAPI\CarAPI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\物联网\实训\Car\CarAPI\CarAPI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\物联网\实训\Car\CarAPI\CarAPI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\物联网\实训\Car\CarAPI\CarAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\物联网\实训\Car\CarAPI\CarAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\物联网\实训\Car\CarAPI\CarAPI\obj\Debug\netcoreapp3.1\CarAPI.csproj.CopyComplete

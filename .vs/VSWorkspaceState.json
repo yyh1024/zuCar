@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\ApiCore",
+    "\\ApiCore\\Model",
+    "\\CarAPI",
     "\\MvcCroe"
   ],
-  "SelectedNode": "\\MvcCroe",
+  "SelectedNode": "\\ApiCore\\Model\\Model.csproj",
   "PreviewInSolutionExplorer": false
 }
