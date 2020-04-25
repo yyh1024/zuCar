@@ -16,7 +16,12 @@ namespace DAL
             return DBHelper.GetToList<CarInfo>(CarInfo);
         }
 
-
+        //汽车详情
+        public CarInfo Find(int id)
+        {
+            string CarInfo = $"select * from CarType c join CarInfo i on c.CarTypeID=i.cid join CarBrand b on i.bid = b.CarBrandID join AllCars a on i.CarInfoID = a.CarInfoid join Va v on a.Vaid = v.VID join CarType c2 on v.cid = c2.CarTypeID join CarBrand b2 on v.bid = b2.CarBrandID where v.Vstate = 1 i.CarInfoID={id} ";
+            return DBHelper.GetToList<CarInfo>(CarInfo)[0];
+        }
 
         //车辆挂靠
         public int AddVa(Va v)
@@ -46,7 +51,12 @@ namespace DAL
             return DBHelper.GetToList<UserInfo>(Str);
         }
 
-
+        //个人认证
+        public int AddUserInfo(UserInfo u)
+        {
+            string str = $"insert into UserInfo values({u.uid},'{u.UName}','{u.IDcard}')";
+            return DBHelper.ExecuteNonQuery(str);
+        }
 
 
 
