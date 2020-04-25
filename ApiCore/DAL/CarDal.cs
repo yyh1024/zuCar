@@ -40,7 +40,7 @@ namespace DAL
         }
 
         //个人信息认证,根据他的姓名和身份证是否为空来判断有没有个人认证
-        public list<UserInfo> UserInfoShow(int UsersId)
+        public List<UserInfo> UserInfoShow(int UsersId)
         {
             string Str = $"select * from Users u1 join UserInfo u2 on u1.Uid=u2.uid where u1.Uid={UsersId}";
             return DBHelper.GetToList<UserInfo>(Str);

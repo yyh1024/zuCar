@@ -22,3 +22,9 @@ D:\物联网\实训\Car\ApiCore\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CopyCompl
 D:\物联网\实训\Car\ApiCore\DAL\obj\Debug\netcoreapp3.1\DAL.dll
 D:\物联网\实训\Car\ApiCore\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
 D:\物联网\实训\Car\ApiCore\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\zuCar\ApiCore\DAL\obj\Debug\netcoreapp3.1\DAL.csprojAssemblyReference.cache
+C:\Users\Lenovo\source\repos\zuCar\ApiCore\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\zuCar\ApiCore\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\zuCar\ApiCore\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\zuCar\ApiCore\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+C:\Users\Lenovo\source\repos\zuCar\ApiCore\DAL\obj\Debug\netcoreapp3.1\DAL.pdb

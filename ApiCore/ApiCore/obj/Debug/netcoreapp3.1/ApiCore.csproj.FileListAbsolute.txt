@@ -137,3 +137,10 @@ D:\物联网\实训\Car\ApiCore\ApiCore\bin\Debug\netcoreapp3.1\zh-Hans\Microsof
 D:\物联网\实训\Car\ApiCore\ApiCore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\物联网\实训\Car\ApiCore\ApiCore\obj\Debug\netcoreapp3.1\ApiCore.csproj.CoreCompileInputs.cache
 D:\物联网\实训\Car\ApiCore\ApiCore\obj\Debug\netcoreapp3.1\ApiCore.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Lenovo\source\repos\zuCar\ApiCore\ApiCore\obj\Debug\netcoreapp3.1\ApiCore.csprojAssemblyReference.cache
+C:\Users\Lenovo\source\repos\zuCar\ApiCore\ApiCore\obj\Debug\netcoreapp3.1\ApiCore.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\zuCar\ApiCore\ApiCore\obj\Debug\netcoreapp3.1\ApiCore.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Lenovo\source\repos\zuCar\ApiCore\ApiCore\obj\Debug\netcoreapp3.1\ApiCore.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\zuCar\ApiCore\ApiCore\obj\Debug\netcoreapp3.1\ApiCore.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\zuCar\ApiCore\ApiCore\obj\Debug\netcoreapp3.1\ApiCore.dll
+C:\Users\Lenovo\source\repos\zuCar\ApiCore\ApiCore\obj\Debug\netcoreapp3.1\ApiCore.pdb
