@@ -1,13 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ApiCore",
-    "\\ApiCore\\ApiCore",
-    "\\ApiCore\\ApiCore\\Controllers",
-    "\\ApiCore\\BLL",
-    "\\ApiCore\\BLL\\bin",
-    "\\ApiCore\\DAL"
+    "\\MvcCroe"
   ],
-  "SelectedNode": "\\ApiCore\\ApiCore\\Controllers\\AdminsController.cs",
+  "SelectedNode": "\\MvcCroe",
   "PreviewInSolutionExplorer": false
 }
