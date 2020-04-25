@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Mvc;
 using Model;
 using BLL;
 using DAL;
-using Nancy.Json;
 
 namespace ApiCore.Controllers
 {
@@ -51,10 +50,11 @@ namespace ApiCore.Controllers
         {
             return userBll.DelUsers(id);
         }
-        [HttpPost]
+
         //public IActionResult RandomMailCode()
         //{
         //    return MailVeriCodeClass.CreateRandomMailCode();
         //}
+
     }
 }

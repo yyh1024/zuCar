@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\A_Githup\\CarThis\\MvcCroe\\MvcCroe\\MvcCroe.csproj": {}
+    "D:\\物联网\\实训\\Car\\MvcCroe\\MvcCroe\\MvcCroe.csproj": {}
   },
   "projects": {
-    "D:\\A_Githup\\CarThis\\MvcCroe\\MvcCroe\\MvcCroe.csproj": {
+    "D:\\物联网\\实训\\Car\\MvcCroe\\MvcCroe\\MvcCroe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\A_Githup\\CarThis\\MvcCroe\\MvcCroe\\MvcCroe.csproj",
+        "projectUniqueName": "D:\\物联网\\实训\\Car\\MvcCroe\\MvcCroe\\MvcCroe.csproj",
         "projectName": "MvcCroe",
-        "projectPath": "D:\\A_Githup\\CarThis\\MvcCroe\\MvcCroe\\MvcCroe.csproj",
-        "packagesPath": "C:\\Users\\96549\\.nuget\\packages\\",
-        "outputPath": "D:\\A_Githup\\CarThis\\MvcCroe\\MvcCroe\\obj\\",
+        "projectPath": "D:\\物联网\\实训\\Car\\MvcCroe\\MvcCroe\\MvcCroe.csproj",
+        "packagesPath": "C:\\Users\\张凯\\.nuget\\packages\\",
+        "outputPath": "D:\\物联网\\实训\\Car\\MvcCroe\\MvcCroe\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\96549\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\张凯\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"

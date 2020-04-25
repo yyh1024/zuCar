@@ -1,8 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ApiCore"
+    "\\ApiCore",
+    "\\ApiCore\\ApiCore",
+    "\\ApiCore\\ApiCore\\Controllers",
+    "\\ApiCore\\BLL",
+    "\\ApiCore\\BLL\\bin",
+    "\\ApiCore\\DAL"
   ],
-  "SelectedNode": "\\ApiCore\\DAL",
+  "SelectedNode": "\\ApiCore\\ApiCore\\Controllers\\AdminsController.cs",
   "PreviewInSolutionExplorer": false
 }
