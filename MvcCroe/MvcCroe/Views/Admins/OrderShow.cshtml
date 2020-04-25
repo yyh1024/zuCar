@@ -1,0 +1,67 @@
+﻿
+
+<table>
+    <tr>
+        @*<td><input type="radio" value="1"  name="Hitch" />正常单</td>
+            <td><input type="radio" value="0"  name="Hitch" />故障单</td>*@
+        <td><input id="Submit1" type="submit" value="正常单" onclick="Show1()" class="btn btn-primary" /></td>
+        <td><input id="Submit1" type="submit" value="故障单" onclick="Show2()" class="btn btn-danger" /></td>
+        <td><input id="Submit1" type="submit" value="添加" onclick="location.href='/Admins/AddCarInfo'" class="btn btn-default" /></td>
+    </tr>
+</table>
+
+
+<table class="table table-bordered">
+    <thead style="background-color:bisque">
+        <tr>
+            <th>订单编号</th>
+            <th>用户</th>
+            <th>汽车名称</th>
+            <th>租车用途</th>
+            <th>取车时间</th>
+            <th>还车时间</th>
+            <th>是否配用司机</th>
+            <th>费用</th>
+            <th>订单状态</th>
+            <th>是否故障</th>
+        </tr>
+    </thead>
+    <tbody id="tb"></tbody>
+</table>
+
+@section scripts{
+    @*<script>
+        $(function () {
+            Show1();
+        })
+
+        function Show1() {
+            $.ajax({
+                url: '',
+                type: 'get',
+                dataType: 'json',
+                data: { Fid: $("#Select1").val(), name: $("#name").val(), People: $("#People").val() },
+                success: function (d) {
+                    $("#tb").empty();
+                    $(d).each(function () {
+                        var line = '<tr>'
+                            + '<td>' + this.Iid + '</td>'
+                            + '<td>' + this.IName + '</td>'
+                            + '<td>' + this.MS + '</td>'
+                            + '<td>' + this.FileModels.FName + '</td>'
+                            + '<td>' + this.Number + '</td>'
+                            + '<td>' + this.People + '</td>'
+                            + '<td>' + this.Time + '</td>'
+                            + '<td>' + '<a href=javascript:; onclick=Del(' + this.Iid + ')>删除</a>'
+                            + '&nbsp;' + '<a href=/File/Upt/' + this.Iid + '>修改</a>'
+                            + '</td>'
+                            + '</tr>';
+                        $("#tb").append(line);
+                    })
+                }
+
+            })
+        }
+
+    </script>*@
+}

@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Cors;
 
 namespace ApiCore.Controllers
 {
-    [EnableCors("any")] //跨域配置
+    //[EnableCors("any")] //跨域配置
     [Route("api/[controller]")]
     [ApiController]
     public class zjlCar2Controller : ControllerBase
