@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Mvc;
 using Model;
 using BLL;
 using DAL;
-using Nancy.Json;
 
 namespace ApiCore.Controllers
 {
