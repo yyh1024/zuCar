@@ -1,11 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Model;
 using BLL;
+using DAL;
 
 namespace ApiCore.Controllers
 {
@@ -32,6 +30,7 @@ namespace ApiCore.Controllers
         [HttpPost]
         public int Post([FromBody] Users m)
         {
+            MailVeriCodeClass.SendMailMessage(m.Email);
             return userBll.Login(m);
         }
 

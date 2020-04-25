@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Model;
 using BLL;
 using DAL;
+using Nancy.Json;
 
 namespace ApiCore.Controllers
 {
@@ -35,6 +35,7 @@ namespace ApiCore.Controllers
         public int Post([FromBody] Users m)
         {
             MailVeriCodeClass.SendMailMessage(m.Email);
+            return userBll.AddUsers(m);
         }
 
         // PUT: api/User/5
@@ -50,5 +51,10 @@ namespace ApiCore.Controllers
         {
             return userBll.DelUsers(id);
         }
+        [HttpPost]
+        //public IActionResult RandomMailCode()
+        //{
+        //    return MailVeriCodeClass.CreateRandomMailCode();
+        //}
     }
 }
