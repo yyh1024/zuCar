@@ -97,7 +97,8 @@
                             + '<td>' + (this.Driver ? "是" : "否") + '</td>'
                             + '<td>' + this.Price + '</td>'
                             + '<td>' + (this.ZT == 1 ? "您已预定" : (this.ZT == 2 ? "立刻上路" : "取消订单")) + '</td>'
-                            + '<td>' + (this.Hitch == 1 ? "暂无问题" : (this.Hitch == 2 ? "故障申请" : (this.Hitch == 3 ? "报修通过" : "有待商议")))
+                            + '<td>' + (this.Hitch == 1 ? "暂无问题" : (this.Hitch == 2 ? "故障申请" : (this.Hitch == 3 ? "报修通过" : "有待商议"))) + '</td>'
+                            + '<td>' + (this.Hitch == 1 ? null : "<input id='Button1' type='button' value='报修原因' class='btn btn-danger' onclick=GetBreakdown(" + this.BreakdownID + ") />" + '&nbsp;' + "<input id='Button1' type='button' value='报修通过' class='btn btn-success' onclick=UptAgree(" + this.OrdersID + ") />" + '&nbsp;' + "<input id='Button1' type='button' value='有待商议' onclick=UptDisAgree(" + this.OrdersID + ") />")
                             + '</td>'
                             + '</tr>';
                         $("#tb").append(line);
