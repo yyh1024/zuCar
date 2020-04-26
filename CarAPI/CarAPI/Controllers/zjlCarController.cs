@@ -37,11 +37,13 @@ namespace ApiCore.Controllers
 
 
 
-        //// POST: api/zjlCar
-        //[HttpPost]
-        //public void Post([FromBody] string value)
-        //{
-        //}
+        //预定车辆
+        // POST: api/zjlCar
+        [HttpPost]
+        public int Post(Orders o)
+        {
+            return bll.AddOrders(o);
+        }
 
         //// PUT: api/zjlCar/5
         //[HttpPut("{id}")]
