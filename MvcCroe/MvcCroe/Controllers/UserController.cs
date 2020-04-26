@@ -8,7 +8,7 @@ namespace MvcCroe.Controllers
 {
     public class UserController : Controller
     {
-        public IActionResult Index()
+        public IActionResult LoginUser()
         {
             return View();
         }

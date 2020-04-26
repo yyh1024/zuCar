@@ -126,7 +126,6 @@ D:\A_Githup\CarThis\MvcCroe\MvcCroe\obj\Debug\netcoreapp3.1\staticwebassets\MvcC
 D:\A_Githup\CarThis\MvcCroe\MvcCroe\obj\Debug\netcoreapp3.1\MvcCroe.dll
 D:\A_Githup\CarThis\MvcCroe\MvcCroe\obj\Debug\netcoreapp3.1\MvcCroe.pdb
 D:\A_Githup\CarThis\MvcCroe\MvcCroe\obj\Debug\netcoreapp3.1\MvcCroe.genruntimeconfig.cache
-L:\实训一\7组\zuCar\MvcCroe\MvcCroe\obj\Debug\netcoreapp3.1\MvcCroe.csprojAssemblyReference.cache
 L:\实训一\7组\zuCar\MvcCroe\MvcCroe\obj\Debug\netcoreapp3.1\MvcCroe.csproj.CoreCompileInputs.cache
 L:\实训一\7组\zuCar\MvcCroe\MvcCroe\obj\Debug\netcoreapp3.1\MvcCroe.MvcApplicationPartsAssemblyInfo.cache
 L:\实训一\7组\zuCar\MvcCroe\MvcCroe\obj\Debug\netcoreapp3.1\MvcCroe.RazorAssemblyInfo.cache
