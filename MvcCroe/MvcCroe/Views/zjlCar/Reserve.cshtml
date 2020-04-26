@@ -1,0 +1,81 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ReserveCar</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>租车用途：</td>
+            <td>
+                <input type="text" id="Useing" placeholder="请填写租车用途 如：商用、自用..等" />
+            </td>
+        </tr>
+        <tr>
+            <td>取车时间：</td>
+            <td>
+                <input type="datetime" id="StartTime" />
+            </td>
+        </tr>
+        <tr>
+            <td>还车时间：</td>
+            <td>
+                <input type="datetime" id="EndTime" />
+            </td>
+        </tr>
+        <tr>
+            <td>是否配用司机：</td>
+            <td>
+                <input type="checkbox" id="Driver" />
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" onclick="Reserve()" class="btn btn-success" value="预定" />
+            </td>
+            <td>
+                <input type="button" onclick="location.href='SoCar/Show()'" class="btn btn-warning" value="取消" />
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+
+
+<script>
+        var obj = {};
+        obj.Useing = $("#Useing").val();
+        obj.StartTime = $("#StartTime").val();
+        obj.EndTime = $("#EndTime").val();
+        obj.Driver = $("#Driver").click() == true ? "1" : "0";
+        function Reserve() {
+            $.ajax({
+                url: "http://localhost:57894/api/zjlCar",
+                type: "POST",
+                data: obj,
+                processData: false,
+                contentType: false,
+                crossDomain: true,
+                xhrFields: {
+                    withCredentials: true
+                },
+                success: function (d) {
+                    alert("预定成功");
+                    location.href = "SoCar/Show()";
+                },
+                error: function (d) {
+                    alert("预定失败");
+                    location.href = "SoCar/Show()";
+                }
+
+            })
+        }
+</script>
