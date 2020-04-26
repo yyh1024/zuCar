@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Cors;
 
 namespace ApiCore.Controllers
 {
-    [EnableCors("any")] //跨域配置
+    //[EnableCors("any")] //跨域配置
     [Route("api/[controller]")]
     [ApiController]
     public class UserLoginController : ControllerBase
@@ -21,12 +21,12 @@ namespace ApiCore.Controllers
             return new string[] { "value1", "value2" };
         }
 
-        // GET: api/UserLogin/5
-        [HttpGet("{id}", Name = "Get")]
-        public string Get(int id)
-        {
-            return "value";
-        }
+        //// GET: api/UserLogin/5
+        //[HttpGet("{id}", Name = "Get2")]
+        //public string Get(int id)
+        //{
+        //    return "value";
+        //}
 
         // POST: api/UserLogin
         [HttpPost]

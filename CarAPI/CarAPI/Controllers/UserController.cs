@@ -5,31 +5,35 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Model;
 using BLL;
-using DAL;
 using Microsoft.AspNetCore.Cors;
+using DAL;
 
 namespace ApiCore.Controllers
 {
-    [EnableCors("any")] //跨域配置
+    //[EnableCors("any")] //跨域配置
     [Route("api/[controller]")]
     [ApiController]
     public class UserController : ControllerBase
     {
         UserBll userBll = new UserBll();
-
         // GET: api/User
         [HttpGet]
-        public IEnumerable<string> Get()
+        public List<Users> Get()
         {
-            return new string[] { "value1", "value2" };
+            return userBll.UserShow();
         }
+        //[HttpPost]
+        //public string GetRandomMailCode()
+        //{
+        //    return MailVeriCodeClass.CreateRandomMailCode();
+        //}
 
-        // GET: api/User/5
-        [HttpGet("{id}", Name = "Get")]
-        public string Get(int id)
-        {
-            return "value";
-        }
+        //// GET: api/User/5
+        //[HttpGet("{id}", Name = "Get2")]
+        //public string Get(int id)
+        //{
+        //    return "value";
+        //}
 
         // POST: api/User
         [HttpPost]
@@ -52,10 +56,21 @@ namespace ApiCore.Controllers
         {
             return userBll.DelUsers(id);
         }
-
-        //public IActionResult RandomMailCode()
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        //[HttpGet("VerifyCode")]
+        //public async Task GetVerifyCode()
         //{
-        //    return MailVeriCodeClass.CreateRandomMailCode();
+        //    Response.ContentType = "image/jpeg";
+        //    using (var stream = VerifyCodeHelper.Create(out string code))
+        //    {
+        //        var buffer = stream.ToArray();
+        //        // 将验证码的token放入cookie
+        //        Response.Cookies.Append(VERFIY_CODE_TOKEN_COOKIE_NAME, await SecurityServices.GetVerifyCodeToken(code));
+        //        await Response.Body.WriteAsync(buffer, 0, buffer.Length);
+        //    }
         //}
 
     }

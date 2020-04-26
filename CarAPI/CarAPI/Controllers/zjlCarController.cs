@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Cors;
 
 namespace ApiCore.Controllers
 {
-    [EnableCors("any")] //跨域配置
+    //[EnableCors("any")] //跨域配置
     [Route("api/[controller]")]
     [ApiController]
     public class zjlCarController : ControllerBase
@@ -28,7 +28,7 @@ namespace ApiCore.Controllers
 
         //汽车详情
         // GET: api/zjlCar/5
-        [HttpGet("{id}", Name = "Get")]
+        [HttpGet("{id}", Name = "Get3")]
         public CarInfo Get(int id)
         {
             return bll.Find(id);

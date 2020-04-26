@@ -18,5 +18,6 @@ namespace Model
         public decimal Price { get; set; }
         public int ZT { get; set; }
         public int Hitch { get; set; }
+        public string CarName { get; set; }
     }
 }

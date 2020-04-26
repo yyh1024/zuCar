@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Cors;
 
 namespace ApiCore.Controllers
 {
-    [EnableCors("any")] //跨域配置
+    //[EnableCors("any")] //跨域配置
     [Route("api/[controller]")]
     [ApiController]
     public class AdminsController : ControllerBase
@@ -27,7 +27,7 @@ namespace ApiCore.Controllers
         }
 
         //查看故障报修原因
-        [HttpGet("{id}", Name = "Get")]
+        [HttpGet("{id}", Name = "Get2")]
         public Breakdown Get(int id)
         {
             return bll.GetBreakdown(id);
