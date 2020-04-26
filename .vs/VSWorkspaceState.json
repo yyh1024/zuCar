@@ -2,8 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\CarAPI",
-    "\\MvcCroe"
+    "\\CarAPI\\CarAPI",
+    "\\CarAPI\\CarAPI\\Controllers",
+    "\\CarAPI\\DAL",
+    "\\MvcCroe",
+    "\\MvcCroe\\MvcCroe",
+    "\\MvcCroe\\MvcCroe\\Controllers",
+    "\\MvcCroe\\MvcCroe\\Views",
+    "\\MvcCroe\\MvcCroe\\Views\\Admins"
   ],
-  "SelectedNode": "\\MvcCroe",
+  "SelectedNode": "\\CarAPI\\CarAPI\\Controllers\\Admins2Controller.cs",
   "PreviewInSolutionExplorer": false
 }

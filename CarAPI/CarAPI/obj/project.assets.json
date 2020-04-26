@@ -4362,25 +4362,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\吕静\\.nuget\\packages\\": {},
+    "C:\\Users\\寮犲嚡\\.nuget\\packages\\": {},
     "D:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "L:\\实训一\\7组\\zuCar\\CarAPI\\CarAPI\\CarAPI.csproj",
+      "projectUniqueName": "D:\\鐗╄仈缃慭\瀹炶\\Car\\CarAPI\\CarAPI\\CarAPI.csproj",
       "projectName": "CarAPI",
-      "projectPath": "L:\\实训一\\7组\\zuCar\\CarAPI\\CarAPI\\CarAPI.csproj",
-      "packagesPath": "C:\\Users\\吕静\\.nuget\\packages\\",
-      "outputPath": "L:\\实训一\\7组\\zuCar\\CarAPI\\CarAPI\\obj\\",
+      "projectPath": "D:\\鐗╄仈缃慭\瀹炶\\Car\\CarAPI\\CarAPI\\CarAPI.csproj",
+      "packagesPath": "C:\\Users\\寮犲嚡\\.nuget\\packages\\",
+      "outputPath": "D:\\鐗╄仈缃慭\瀹炶\\Car\\CarAPI\\CarAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "D:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\吕静\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\寮犲嚡\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -4394,11 +4394,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "L:\\实训一\\7组\\zuCar\\CarAPI\\BLL\\BLL.csproj": {
-              "projectPath": "L:\\实训一\\7组\\zuCar\\CarAPI\\BLL\\BLL.csproj"
+            "D:\\鐗╄仈缃慭\瀹炶\\Car\\CarAPI\\BLL\\BLL.csproj": {
+              "projectPath": "D:\\鐗╄仈缃慭\瀹炶\\Car\\CarAPI\\BLL\\BLL.csproj"
             },
-            "L:\\实训一\\7组\\zuCar\\CarAPI\\Model\\Model.csproj": {
-              "projectPath": "L:\\实训一\\7组\\zuCar\\CarAPI\\Model\\Model.csproj"
+            "D:\\鐗╄仈缃慭\瀹炶\\Car\\CarAPI\\Model\\Model.csproj": {
+              "projectPath": "D:\\鐗╄仈缃慭\瀹炶\\Car\\CarAPI\\Model\\Model.csproj"
             }
           }
         }
