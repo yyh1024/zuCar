@@ -59,6 +59,12 @@ namespace DAL
         }
 
 
+        //预定车辆
+        public int AddOrders(Orders o)
+        {
+            string str = $"insert into Orders values('{o.Oid}',{o.uid},{o.CarInfoid},'{o.Useing}','{o.StartTime}','{o.EndTime}',{o.Driver},{o.Price},{o.ZT},{o.Hitch}) ";
+            return DBHelper.ExecuteNonQuery(str);
+        }   
 
     }
 }

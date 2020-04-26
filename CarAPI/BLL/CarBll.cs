@@ -54,5 +54,11 @@ namespace BLL
         {
             return dal.AddUserInfo(u);
         }
+
+        //预定车辆
+        public int AddOrders(Orders o)
+        {
+            return dal.AddOrders(o);
+        }
     }
 }

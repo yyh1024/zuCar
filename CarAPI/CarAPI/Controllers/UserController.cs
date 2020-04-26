@@ -16,33 +16,41 @@ namespace ApiCore.Controllers
     public class UserController : ControllerBase
     {
         UserBll userBll = new UserBll();
+        /// <summary>
+        /// postman调试显示用户信息
+        /// </summary>
+        /// <returns></returns>
         // GET: api/User
         [HttpGet]
         public List<Users> Get()
         {
             return userBll.UserShow();
         }
-        //[HttpPost]
-        //public string GetRandomMailCode()
-        //{
-        //    return MailVeriCodeClass.CreateRandomMailCode();
-        //}
-
-        //// GET: api/User/5
-        //[HttpGet("{id}", Name = "Get2")]
-        //public string Get(int id)
-        //{
-        //    return "value";
-        //}
-
+        /// <summary>
+        /// 验证码传递
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        public string GetRandomMailCode()
+        {
+            return userBll.CreateRandomMailCode();
+        }
+        /// <summary>
+        /// 注册用户
+        /// </summary>
+        /// <param name="m"></param>
+        /// <returns></returns>
         // POST: api/User
         [HttpPost]
         public int Post([FromBody] Users m)
         {
-            MailVeriCodeClass.SendMailMessage(m.Email);
             return userBll.AddUsers(m);
         }
-
+        /// <summary>
+        /// 用户修改信息
+        /// </summary>
+        /// <param name="m"></param>
+        /// <returns></returns>
         // PUT: api/User/5
         [HttpPut("{id}")]
         public int Put([FromBody]Users m)
@@ -51,27 +59,35 @@ namespace ApiCore.Controllers
         }
 
         // DELETE: api/ApiWithActions/5
+        /// <summary>
+        /// 删除用户的记录
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpDelete("{id}")]
         public int Delete(string id)
         {
             return userBll.DelUsers(id);
         }
         /// <summary>
-        /// 
+        /// 用户登录方法
         /// </summary>
+        /// <param name="m"></param>
         /// <returns></returns>
-        //[HttpGet("VerifyCode")]
-        //public async Task GetVerifyCode()
-        //{
-        //    Response.ContentType = "image/jpeg";
-        //    using (var stream = VerifyCodeHelper.Create(out string code))
-        //    {
-        //        var buffer = stream.ToArray();
-        //        // 将验证码的token放入cookie
-        //        Response.Cookies.Append(VERFIY_CODE_TOKEN_COOKIE_NAME, await SecurityServices.GetVerifyCodeToken(code));
-        //        await Response.Body.WriteAsync(buffer, 0, buffer.Length);
-        //    }
-        //}
-
+        [HttpPost]
+        public int LoginUser([FromBody] Users m)
+        {
+            return userBll.Login(m);
+        }
+        /// <summary>
+        /// 发送邮件的方法
+        /// </summary>
+        /// <param name="Email"></param>
+        /// <returns></returns>
+        [HttpGet]
+        public bool SendMailMessage(string Email)
+        {
+            return userBll.SendMailMessage(Email);
+        }
     }
 }
