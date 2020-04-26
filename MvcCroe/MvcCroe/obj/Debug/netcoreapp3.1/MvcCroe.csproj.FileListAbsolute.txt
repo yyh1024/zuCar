@@ -259,3 +259,6 @@ L:\实训一\7组\zuCar\MvcCroe\MvcCroe\obj\Debug\netcoreapp3.1\MvcCroe.csproj.C
 L:\实训一\7组\zuCar\MvcCroe\MvcCroe\obj\Debug\netcoreapp3.1\staticwebassets\MvcCroe.StaticWebAssets.Manifest.cache
 L:\实训一\7组\zuCar\MvcCroe\MvcCroe\obj\Debug\netcoreapp3.1\staticwebassets\MvcCroe.StaticWebAssets.xml
 L:\实训一\7组\zuCar\MvcCroe\MvcCroe\obj\Debug\netcoreapp3.1\MvcCroe.genruntimeconfig.cache
+L:\实训一\7组\zuCar\MvcCroe\MvcCroe\obj\Debug\netcoreapp3.1\MvcCroe.csprojAssemblyReference.cache
+L:\实训一\7组\zuCar\MvcCroe\MvcCroe\obj\Debug\netcoreapp3.1\Razor\Views\User\LoginUser.cshtml.g.cs
+L:\实训一\7组\zuCar\MvcCroe\MvcCroe\obj\Debug\netcoreapp3.1\Razor\Views\zjlCar\Reserve.cshtml.g.cs
