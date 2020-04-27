@@ -4,7 +4,7 @@
 }
 
 <h1>个人实名认证</h1>
-<table>
+<table class="table table-bordered">
     <tr>
         <td>个人姓名：<input id="Text1" type="text" /></td>
     </tr>
@@ -12,14 +12,12 @@
         <td>身份证号：<input id="Text2" type="text" /></td>
     </tr>
     <tr>
-        <td><input type="button" value="取消" onclick="" /><input type="button" value="提交认证" onclick="AddUser()" /></td>
+        <td><input type="button" value="取消" onclick=""  class="btn btn-primary" />
+        <input type="button" value="提交认证" onclick="AddUser()"  class="btn btn-primary" /></td>
     </tr>
 </table>
-@section scripts{ 
-<script>
-    $(function () {
-        AddUser();
-    })
+@section scripts{
+    <script>
     function AddUser() {
         var obj = {};
         obj.UName = $("#Text1").val();
@@ -39,6 +37,7 @@
                 location.href = '//';
             }
     }
-</script>
+    </script>
 
 }
+

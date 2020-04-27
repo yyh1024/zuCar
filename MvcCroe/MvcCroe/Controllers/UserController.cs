@@ -12,10 +12,5 @@ namespace MvcCroe.Controllers
         {
             return View();
         }
-        //个人实名认证
-        public IActionResult AddUserInfo()
-        {
-            return View();
-        }
     }
 }
