@@ -60,5 +60,17 @@ namespace BLL
         {
             return dal.AddOrders(o);
         }
+
+        //车辆类型
+        public List<CarType> TypeShow()
+        {
+            return dal.TypeShow();
+        }
+
+        //车辆品牌
+        public List<CarBrand> BrandShow()
+        {
+            return dal.BrandShow();
+        }
     }
 }

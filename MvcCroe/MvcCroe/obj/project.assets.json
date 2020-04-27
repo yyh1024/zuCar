@@ -8108,25 +8108,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lenovo\\.nuget\\packages\\": {},
+    "C:\\Users\\o\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lenovo\\Source\\Repos\\zuCar1\\MvcCroe\\MvcCroe\\MvcCroe.csproj",
+      "projectUniqueName": "C:\\Users\\o\\Source\\Repos\\zuCar\\MvcCroe\\MvcCroe\\MvcCroe.csproj",
       "projectName": "MvcCroe",
-      "projectPath": "C:\\Users\\Lenovo\\Source\\Repos\\zuCar1\\MvcCroe\\MvcCroe\\MvcCroe.csproj",
-      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lenovo\\Source\\Repos\\zuCar1\\MvcCroe\\MvcCroe\\obj\\",
+      "projectPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\MvcCroe\\MvcCroe\\MvcCroe.csproj",
+      "packagesPath": "C:\\Users\\o\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\MvcCroe\\MvcCroe\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\o\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
