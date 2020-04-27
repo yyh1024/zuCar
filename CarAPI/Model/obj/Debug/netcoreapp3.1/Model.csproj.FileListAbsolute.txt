@@ -16,3 +16,12 @@ L:\实训一\7组\zuCar\CarAPI\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfoI
 L:\实训一\7组\zuCar\CarAPI\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfo.cs
 L:\实训一\7组\zuCar\CarAPI\Model\obj\Debug\netcoreapp3.1\Model.dll
 L:\实训一\7组\zuCar\CarAPI\Model\obj\Debug\netcoreapp3.1\Model.pdb
+C:\Users\o\Source\Repos\zuCar\CarAPI\Model\bin\Debug\netcoreapp3.1\Model.deps.json
+C:\Users\o\Source\Repos\zuCar\CarAPI\Model\bin\Debug\netcoreapp3.1\Model.dll
+C:\Users\o\Source\Repos\zuCar\CarAPI\Model\bin\Debug\netcoreapp3.1\Model.pdb
+C:\Users\o\Source\Repos\zuCar\CarAPI\Model\obj\Debug\netcoreapp3.1\Model.csprojAssemblyReference.cache
+C:\Users\o\Source\Repos\zuCar\CarAPI\Model\obj\Debug\netcoreapp3.1\Model.csproj.CoreCompileInputs.cache
+C:\Users\o\Source\Repos\zuCar\CarAPI\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfoInputs.cache
+C:\Users\o\Source\Repos\zuCar\CarAPI\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfo.cs
+C:\Users\o\Source\Repos\zuCar\CarAPI\Model\obj\Debug\netcoreapp3.1\Model.dll
+C:\Users\o\Source\Repos\zuCar\CarAPI\Model\obj\Debug\netcoreapp3.1\Model.pdb
