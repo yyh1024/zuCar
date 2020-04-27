@@ -530,3 +530,5 @@ C:\Users\Lenovo\Source\Repos\zuCar1\MvcCroe\MvcCroe\obj\Debug\netcoreapp3.1\MvcC
 C:\Users\Lenovo\Source\Repos\zuCar1\MvcCroe\MvcCroe\obj\Debug\netcoreapp3.1\staticwebassets\MvcCroe.StaticWebAssets.Manifest.cache
 C:\Users\Lenovo\Source\Repos\zuCar1\MvcCroe\MvcCroe\obj\Debug\netcoreapp3.1\staticwebassets\MvcCroe.StaticWebAssets.xml
 C:\Users\Lenovo\Source\Repos\zuCar1\MvcCroe\MvcCroe\obj\Debug\netcoreapp3.1\MvcCroe.genruntimeconfig.cache
+C:\Users\Lenovo\Source\Repos\zuCar1\MvcCroe\MvcCroe\obj\Debug\netcoreapp3.1\Razor\Views\yyhCar\AddUserInfo.cshtml.g.cs
+C:\Users\Lenovo\Source\Repos\zuCar1\MvcCroe\MvcCroe\obj\Debug\netcoreapp3.1\Razor\Views\yyhCar\OrdersShow.cshtml.g.cs
