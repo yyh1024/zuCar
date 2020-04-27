@@ -64,7 +64,21 @@ namespace DAL
         {
             string str = $"insert into Orders values('{o.Oid}',{o.uid},{o.CarInfoid},'{o.Useing}','{o.StartTime}','{o.EndTime}',{o.Driver},{o.Price},{o.ZT},{o.Hitch}) ";
             return DBHelper.ExecuteNonQuery(str);
-        }   
+        }
+
+        //车辆类型
+        public List<CarType> TypeShow()
+        {
+            string str = "select * from CarType";
+            return DBHelper.GetToList<CarType>(str);
+        }
+
+        //车辆品牌
+        public List<CarBrand> BrandShow()
+        {
+            string str = "select * from CarBrand";
+            return DBHelper.GetToList<CarBrand>(str);
+        }
 
     }
 }
