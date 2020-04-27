@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LuCueGpR3ycerHvJkJ77gmGojjF/2huQx1Dl+TSaVWUMh1kUS6rumx9NPVLLPs7CoBdrpOG1+EMG23bFkiT1UQ==",
+  "dgSpecHash": "WZ7GVd4fNg5q/FKeBVrYAkbLf2Zp/mQS7ny9qkqUOmreyyjJa3nPi/FrinargSd4e1J19ov9klGdiK42JrK/fA==",
   "success": true,
-  "projectFilePath": "D:\\物联网\\实训\\Car\\CarAPI\\Model\\Model.csproj",
+  "projectFilePath": "D:\\A_Githup\\PCar\\CarAPI\\Model\\Model.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
