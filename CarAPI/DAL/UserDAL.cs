@@ -67,7 +67,19 @@ namespace DAL
         /// <summary>
         ///  生成随机验证码
         /// </summary>
-        public string CreateRandomMailCode()
+        //public string CreateRandomMailCode()
+        //{
+            
+        //    return randomCode;
+        //}
+
+
+        /// <summary>
+        ///  发送邮件验证码
+        /// </summary>
+        /// <param name="Email">收件人邮箱地址</param>
+        /// <returns></returns>
+        public string SendMailMessage(string Email)
         {
             int randNum;
             char code;
@@ -97,24 +109,13 @@ namespace DAL
                 }
                 randomCode += code.ToString();
             }
-            return randomCode;
-        }
-
-
-        /// <summary>
-        ///  发送邮件验证码
-        /// </summary>
-        /// <param name="Email">收件人邮箱地址</param>
-        /// <returns></returns>
-        public bool SendMailMessage(string Email)
-        {
-            string code = CreateRandomMailCode();
+            //string code = CreateRandomMailCode();
             MailMessage mail = new MailMessage();
             mail.From = new MailAddress("643241336@qq.com", "【车百汇】");//发件人邮箱地址
             mail.To.Add(new MailAddress(Email));//收件人邮箱地址
             mail.Subject = "【车百汇系统】";//邮件标题
             mail.SubjectEncoding = Encoding.UTF8;//标题编码
-            mail.Body = "这封信是由 -【百车汇租赁】-官方 发送的。\r\n\r\n您的验证码为：" + code + "\r\n\r\n您收到这封" +
+            mail.Body = "这封信是由 -【百车汇租赁】-官方 发送的。\r\n\r\n您的验证码为：" + randomCode + "\r\n\r\n您收到这封" +
                   "邮件，是由于在 -【百车汇租赁】-官网 获取了新用户注册/用户登录时使用了这个邮箱地址。如果您并没有访问过 -【百车汇租赁】-" +
                   "官网，或没有进行上述操作，请忽略这封邮件。\r\n\r\n您不需要退订或进行其他进一步的操作。";//邮件内容     
             mail.BodyEncoding = Encoding.UTF8;//正文编码
@@ -132,12 +133,11 @@ namespace DAL
             {
                 client.Send(mail);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-
-                return false;
+                throw;
             }
-            return true;
+            return randomCode;
         }
     }
 }
