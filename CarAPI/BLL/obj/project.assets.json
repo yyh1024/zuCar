@@ -487,25 +487,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\吕静\\.nuget\\packages\\": {},
+    "C:\\Users\\张凯\\.nuget\\packages\\": {},
     "D:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "L:\\实训一\\7组\\zuCar\\CarAPI\\BLL\\BLL.csproj",
+      "projectUniqueName": "D:\\物联网\\实训\\Car\\CarAPI\\BLL\\BLL.csproj",
       "projectName": "BLL",
-      "projectPath": "L:\\实训一\\7组\\zuCar\\CarAPI\\BLL\\BLL.csproj",
-      "packagesPath": "C:\\Users\\吕静\\.nuget\\packages\\",
-      "outputPath": "L:\\实训一\\7组\\zuCar\\CarAPI\\BLL\\obj\\",
+      "projectPath": "D:\\物联网\\实训\\Car\\CarAPI\\BLL\\BLL.csproj",
+      "packagesPath": "C:\\Users\\张凯\\.nuget\\packages\\",
+      "outputPath": "D:\\物联网\\实训\\Car\\CarAPI\\BLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\吕静\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\张凯\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -519,11 +519,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "L:\\实训一\\7组\\zuCar\\CarAPI\\DAL\\DAL.csproj": {
-              "projectPath": "L:\\实训一\\7组\\zuCar\\CarAPI\\DAL\\DAL.csproj"
+            "D:\\物联网\\实训\\Car\\CarAPI\\DAL\\DAL.csproj": {
+              "projectPath": "D:\\物联网\\实训\\Car\\CarAPI\\DAL\\DAL.csproj"
             },
-            "L:\\实训一\\7组\\zuCar\\CarAPI\\Model\\Model.csproj": {
-              "projectPath": "L:\\实训一\\7组\\zuCar\\CarAPI\\Model\\Model.csproj"
+            "D:\\物联网\\实训\\Car\\CarAPI\\Model\\Model.csproj": {
+              "projectPath": "D:\\物联网\\实训\\Car\\CarAPI\\Model\\Model.csproj"
             }
           }
         }
@@ -557,7 +557,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,6 +1,63 @@
 ﻿
-@{
-    ViewData["Title"] = "VaShow";
-}
 
+<table class="table table-bordered">
+    <thead style="background-color:bisque">
+        <tr style="text-align:center">
+            <th>车辆序号</th>
+            <th>用户</th>
+            <th>图片</th>
+            <th>汽车品牌</th>
+            <th>汽车名字</th>
+            <th>汽车年份</th>
+            <th>汽车类型</th>
+            <th>汽车排量</th>
+            <th>档位</th>
+            <th>日租单价</th>
+            <th>是否审批</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody id="tb"></tbody>
+</table>
 
+<script>
+    $(function () {
+        Show();
+    })
+
+    function Show() {
+        $.ajax({
+            url: 'http://localhost:57894/api/Admins2/',
+            type: 'get',
+            dataType: 'json',
+            async: true,
+            xhrFields: {
+                withCredentials: true
+            },
+            crossDomain: true,
+            success: function (d) {
+                $("#tb").empty();
+                $(d).each(function () {
+                    var line = '<tr>'
+                        + '<td>' + this.VID + '</td>'
+                        + '<td>' + this.uid + '</td>'
+                        + '<td>' + this.Image + '</td>'
+                        + '<td>' + this.bid + '</td>'
+                        + '<td>' + this.CarName + '</td>'
+                        + '<td>' + this.Years + '</td>'
+                        + '<td>' + this.cid + '</td>'
+                        + '<td>' + this.CC + '</td>'
+                        + '<td>' + this.AMT + '</td>'
+                        + '<td>' + this.Price + '</td>'
+                        + '<td>' + (this.Vstate ? "是" : "否") + '</td>'
+                        + '<td>' + "<input id='Button1' type='button' value='审批' class='btn btn-danger' onclick=UptVa(" + this.VID + ") />"
+                        + '</td>'
+                        + '</tr>';
+                    $("#tb").append(line);
+                })
+            }
+
+        })
+    }
+
+</script>

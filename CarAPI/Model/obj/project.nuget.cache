@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MlesAQABclpJkAX9ynXTfeDggse8vrM/uooN/Q//QVdnGwWZMSSGtHV7cfFZfhueyYo/aFS1hMSl7dMq52s9EQ==",
+  "dgSpecHash": "LuCueGpR3ycerHvJkJ77gmGojjF/2huQx1Dl+TSaVWUMh1kUS6rumx9NPVLLPs7CoBdrpOG1+EMG23bFkiT1UQ==",
   "success": true,
-  "projectFilePath": "L:\\实训一\\7组\\zuCar\\CarAPI\\Model\\Model.csproj",
+  "projectFilePath": "D:\\物联网\\实训\\Car\\CarAPI\\Model\\Model.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
