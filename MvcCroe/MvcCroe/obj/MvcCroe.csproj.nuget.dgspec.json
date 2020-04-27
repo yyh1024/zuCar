@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\物联网\\实训\\Car\\MvcCroe\\MvcCroe\\MvcCroe.csproj": {}
+    "C:\\Users\\Lenovo\\Source\\Repos\\zuCar1\\MvcCroe\\MvcCroe\\MvcCroe.csproj": {}
   },
   "projects": {
-    "D:\\物联网\\实训\\Car\\MvcCroe\\MvcCroe\\MvcCroe.csproj": {
+    "C:\\Users\\Lenovo\\Source\\Repos\\zuCar1\\MvcCroe\\MvcCroe\\MvcCroe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\物联网\\实训\\Car\\MvcCroe\\MvcCroe\\MvcCroe.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\Source\\Repos\\zuCar1\\MvcCroe\\MvcCroe\\MvcCroe.csproj",
         "projectName": "MvcCroe",
-        "projectPath": "D:\\物联网\\实训\\Car\\MvcCroe\\MvcCroe\\MvcCroe.csproj",
-        "packagesPath": "C:\\Users\\张凯\\.nuget\\packages\\",
-        "outputPath": "D:\\物联网\\实训\\Car\\MvcCroe\\MvcCroe\\obj\\",
+        "projectPath": "C:\\Users\\Lenovo\\Source\\Repos\\zuCar1\\MvcCroe\\MvcCroe\\MvcCroe.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lenovo\\Source\\Repos\\zuCar1\\MvcCroe\\MvcCroe\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\张凯\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -80,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
