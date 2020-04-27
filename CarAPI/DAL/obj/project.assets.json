@@ -474,11 +474,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\物联网\\实训\\Car\\CarAPI\\DAL\\DAL.csproj",
+      "projectUniqueName": "D:\\物联网\\实训\\CarAPI\\CarAPI\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "D:\\物联网\\实训\\Car\\CarAPI\\DAL\\DAL.csproj",
+      "projectPath": "D:\\物联网\\实训\\CarAPI\\CarAPI\\DAL\\DAL.csproj",
       "packagesPath": "C:\\Users\\张凯\\.nuget\\packages\\",
-      "outputPath": "D:\\物联网\\实训\\Car\\CarAPI\\DAL\\obj\\",
+      "outputPath": "D:\\物联网\\实训\\CarAPI\\CarAPI\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft\\Xamarin\\NuGet\\",
@@ -499,8 +499,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\物联网\\实训\\Car\\CarAPI\\Model\\Model.csproj": {
-              "projectPath": "D:\\物联网\\实训\\Car\\CarAPI\\Model\\Model.csproj"
+            "D:\\物联网\\实训\\CarAPI\\CarAPI\\Model\\Model.csproj": {
+              "projectPath": "D:\\物联网\\实训\\CarAPI\\CarAPI\\Model\\Model.csproj"
             }
           }
         }

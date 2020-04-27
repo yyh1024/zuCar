@@ -40,11 +40,11 @@ namespace ApiCore.Controllers
             return bll.AddCarInfo(c);
         }
 
-        //审批
+        //修改故障状态为：报修通过
         [HttpPut("{id}")]
-        public int Put([FromBody] Va v)
+        public int Put([FromBody] Orders o)
         {
-            return bll.UptVa(v);
+            return bll.UptOrdersAgree(o);
         }
 
         // DELETE: api/ApiWithActions/5

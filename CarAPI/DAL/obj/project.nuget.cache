@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nl+8ZIChb0yD4es3GWc261m5tsiwYbLwTYBqfh7U5/RDmdshks6m+iLGbqIGZqD1LCJodt7/+zv4f9+5tpXFgA==",
+  "dgSpecHash": "BW9SabpEleatNWO/XlUFvqQ5xi8W2r2UrzVe8PnVe/q5r7w5jfUBU6tqUFu7xeFqLz5B2sHwJhPwbcA1JT38jA==",
   "success": true,
-  "projectFilePath": "D:\\物联网\\实训\\Car\\CarAPI\\DAL\\DAL.csproj",
+  "projectFilePath": "D:\\物联网\\实训\\CarAPI\\CarAPI\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\张凯\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\张凯\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
