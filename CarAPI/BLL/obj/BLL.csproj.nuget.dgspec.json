@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "L:\\实训一\\百车汇汽车租赁系统mvc\\CarAPI\\BLL\\BLL.csproj": {}
+    "L:\\实训一\\百车汇汽车租赁系统啊api\\CarAPI\\BLL\\BLL.csproj": {}
   },
   "projects": {
-    "L:\\实训一\\百车汇汽车租赁系统mvc\\CarAPI\\BLL\\BLL.csproj": {
+    "L:\\实训一\\百车汇汽车租赁系统啊api\\CarAPI\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "L:\\实训一\\百车汇汽车租赁系统mvc\\CarAPI\\BLL\\BLL.csproj",
+        "projectUniqueName": "L:\\实训一\\百车汇汽车租赁系统啊api\\CarAPI\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "L:\\实训一\\百车汇汽车租赁系统mvc\\CarAPI\\BLL\\BLL.csproj",
+        "projectPath": "L:\\实训一\\百车汇汽车租赁系统啊api\\CarAPI\\BLL\\BLL.csproj",
         "packagesPath": "C:\\Users\\吕静\\.nuget\\packages\\",
-        "outputPath": "L:\\实训一\\百车汇汽车租赁系统mvc\\CarAPI\\BLL\\obj\\",
+        "outputPath": "L:\\实训一\\百车汇汽车租赁系统啊api\\CarAPI\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\",
@@ -32,11 +32,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "L:\\实训一\\百车汇汽车租赁系统mvc\\CarAPI\\DAL\\DAL.csproj": {
-                "projectPath": "L:\\实训一\\百车汇汽车租赁系统mvc\\CarAPI\\DAL\\DAL.csproj"
+              "L:\\实训一\\百车汇汽车租赁系统啊api\\CarAPI\\DAL\\DAL.csproj": {
+                "projectPath": "L:\\实训一\\百车汇汽车租赁系统啊api\\CarAPI\\DAL\\DAL.csproj"
               },
-              "L:\\实训一\\百车汇汽车租赁系统mvc\\CarAPI\\Model\\Model.csproj": {
-                "projectPath": "L:\\实训一\\百车汇汽车租赁系统mvc\\CarAPI\\Model\\Model.csproj"
+              "L:\\实训一\\百车汇汽车租赁系统啊api\\CarAPI\\Model\\Model.csproj": {
+                "projectPath": "L:\\实训一\\百车汇汽车租赁系统啊api\\CarAPI\\Model\\Model.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "L:\\实训一\\百车汇汽车租赁系统mvc\\CarAPI\\DAL\\DAL.csproj": {
+    "L:\\实训一\\百车汇汽车租赁系统啊api\\CarAPI\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "L:\\实训一\\百车汇汽车租赁系统mvc\\CarAPI\\DAL\\DAL.csproj",
+        "projectUniqueName": "L:\\实训一\\百车汇汽车租赁系统啊api\\CarAPI\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "L:\\实训一\\百车汇汽车租赁系统mvc\\CarAPI\\DAL\\DAL.csproj",
+        "projectPath": "L:\\实训一\\百车汇汽车租赁系统啊api\\CarAPI\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\吕静\\.nuget\\packages\\",
-        "outputPath": "L:\\实训一\\百车汇汽车租赁系统mvc\\CarAPI\\DAL\\obj\\",
+        "outputPath": "L:\\实训一\\百车汇汽车租赁系统啊api\\CarAPI\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\",
@@ -102,8 +102,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "L:\\实训一\\百车汇汽车租赁系统mvc\\CarAPI\\Model\\Model.csproj": {
-                "projectPath": "L:\\实训一\\百车汇汽车租赁系统mvc\\CarAPI\\Model\\Model.csproj"
+              "L:\\实训一\\百车汇汽车租赁系统啊api\\CarAPI\\Model\\Model.csproj": {
+                "projectPath": "L:\\实训一\\百车汇汽车租赁系统啊api\\CarAPI\\Model\\Model.csproj"
               }
             }
           }
@@ -141,14 +141,14 @@
         }
       }
     },
-    "L:\\实训一\\百车汇汽车租赁系统mvc\\CarAPI\\Model\\Model.csproj": {
+    "L:\\实训一\\百车汇汽车租赁系统啊api\\CarAPI\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "L:\\实训一\\百车汇汽车租赁系统mvc\\CarAPI\\Model\\Model.csproj",
+        "projectUniqueName": "L:\\实训一\\百车汇汽车租赁系统啊api\\CarAPI\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "L:\\实训一\\百车汇汽车租赁系统mvc\\CarAPI\\Model\\Model.csproj",
+        "projectPath": "L:\\实训一\\百车汇汽车租赁系统啊api\\CarAPI\\Model\\Model.csproj",
         "packagesPath": "C:\\Users\\吕静\\.nuget\\packages\\",
-        "outputPath": "L:\\实训一\\百车汇汽车租赁系统mvc\\CarAPI\\Model\\obj\\",
+        "outputPath": "L:\\实训一\\百车汇汽车租赁系统啊api\\CarAPI\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\",
