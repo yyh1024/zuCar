@@ -3,14 +3,12 @@
     "",
     "\\CarAPI",
     "\\CarAPI\\CarAPI",
-    "\\CarAPI\\CarAPI\\Controllers",
     "\\CarAPI\\DAL",
     "\\MvcCroe",
     "\\MvcCroe\\MvcCroe",
     "\\MvcCroe\\MvcCroe\\Controllers",
-    "\\MvcCroe\\MvcCroe\\Views",
-    "\\MvcCroe\\MvcCroe\\Views\\Admins"
+    "\\MvcCroe\\MvcCroe\\Views"
   ],
-  "SelectedNode": "\\CarAPI\\CarAPI\\Controllers\\Admins2Controller.cs",
+  "SelectedNode": "\\CarAPI\\CarAPI\\Controllers",
   "PreviewInSolutionExplorer": false
 }
