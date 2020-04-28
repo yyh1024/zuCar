@@ -34,10 +34,10 @@ namespace ApiCore.Controllers
         //}
 
         // POST: api/Admins3
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
+        //[HttpPost]
+        //public void Post([FromBody] string value)
+        //{
+        //}
 
         //修改故障状态为：有待商议
         [HttpPut("{id}")]
@@ -46,10 +46,10 @@ namespace ApiCore.Controllers
             return bll.UptOrdersDisAgree(o);
         }
 
-        // DELETE: api/ApiWithActions/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
+        //// DELETE: api/ApiWithActions/5
+        //[HttpDelete("{id}")]
+        //public void Delete(int id)
+        //{
+        //}
     }
 }

@@ -21,9 +21,39 @@ namespace ApiCore.Controllers
 
         //车辆预定信息
         [HttpGet]
-        public List<Orders> Get()
+        public PageInfo Get(int currentPage = 1, int pageSize = 2)
         {
-            return bll.OrderShow();
+            var list = bll.OrderShow();
+            var p = new PageInfo
+            {
+                //总记录数
+                totalCount = list.Count()
+            };
+            //计算总页数
+            if (p.totalCount == 0)
+            {
+                p.totalPage = 1;
+            }
+            else if (p.totalCount % pageSize == 0)
+            {
+                p.totalPage = p.totalCount / pageSize;
+            }
+            else
+            {
+                p.totalPage = (p.totalCount / pageSize) + 1;
+            }
+            //纠正当前页不正确的值
+            if (currentPage < 1)
+            {
+                currentPage = 1;
+            }
+            if (currentPage > p.totalPage)
+            {
+                currentPage = p.totalPage;
+            }
+            p.Orders = list.Skip(pageSize * (currentPage - 1)).Take(pageSize).ToList();
+            p.currentPage = currentPage;
+            return p;
         }
 
         //查看故障报修原因
@@ -48,9 +78,9 @@ namespace ApiCore.Controllers
         }
 
         // DELETE: api/ApiWithActions/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
+        //[HttpDelete("{id}")]
+        //public void Delete(int id)
+        //{
+        //}
     }
 }

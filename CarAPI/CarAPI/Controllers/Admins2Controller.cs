@@ -21,7 +21,7 @@ namespace ApiCore.Controllers
 
         //用户挂靠的车辆信息
         [HttpGet]
-        public PageInfo Get(int currentPage = 1, int pageSize = 3)
+        public PageInfo Get(int currentPage = 1, int pageSize = 2)
         {
             var list = bll.VaShow();
             var p = new PageInfo
@@ -64,10 +64,10 @@ namespace ApiCore.Controllers
         //}
 
         // POST: api/Admins2
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
+        //[HttpPost]
+        //public void Post([FromBody] string value)
+        //{
+        //}
 
         //审批
         [HttpPut("{id}")]
@@ -77,10 +77,10 @@ namespace ApiCore.Controllers
         }
         
 
-        // DELETE: api/ApiWithActions/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
+        //// DELETE: api/ApiWithActions/5
+        //[HttpDelete("{id}")]
+        //public void Delete(int id)
+        //{
+        //}
     }
 }
