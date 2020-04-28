@@ -487,25 +487,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\张凯\\.nuget\\packages\\": {},
+    "C:\\Users\\吕静\\.nuget\\packages\\": {},
     "D:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\物联网\\实训\\CarAPI\\CarAPI\\BLL\\BLL.csproj",
+      "projectUniqueName": "L:\\实训一\\百车汇汽车租赁系统啊api\\CarAPI\\BLL\\BLL.csproj",
       "projectName": "BLL",
-      "projectPath": "D:\\物联网\\实训\\CarAPI\\CarAPI\\BLL\\BLL.csproj",
-      "packagesPath": "C:\\Users\\张凯\\.nuget\\packages\\",
-      "outputPath": "D:\\物联网\\实训\\CarAPI\\CarAPI\\BLL\\obj\\",
+      "projectPath": "L:\\实训一\\百车汇汽车租赁系统啊api\\CarAPI\\BLL\\BLL.csproj",
+      "packagesPath": "C:\\Users\\吕静\\.nuget\\packages\\",
+      "outputPath": "L:\\实训一\\百车汇汽车租赁系统啊api\\CarAPI\\BLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\张凯\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\吕静\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -519,11 +519,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\物联网\\实训\\CarAPI\\CarAPI\\DAL\\DAL.csproj": {
-              "projectPath": "D:\\物联网\\实训\\CarAPI\\CarAPI\\DAL\\DAL.csproj"
+            "L:\\实训一\\百车汇汽车租赁系统啊api\\CarAPI\\DAL\\DAL.csproj": {
+              "projectPath": "L:\\实训一\\百车汇汽车租赁系统啊api\\CarAPI\\DAL\\DAL.csproj"
             },
-            "D:\\物联网\\实训\\CarAPI\\CarAPI\\Model\\Model.csproj": {
-              "projectPath": "D:\\物联网\\实训\\CarAPI\\CarAPI\\Model\\Model.csproj"
+            "L:\\实训一\\百车汇汽车租赁系统啊api\\CarAPI\\Model\\Model.csproj": {
+              "projectPath": "L:\\实训一\\百车汇汽车租赁系统啊api\\CarAPI\\Model\\Model.csproj"
             }
           }
         }
@@ -557,7 +557,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

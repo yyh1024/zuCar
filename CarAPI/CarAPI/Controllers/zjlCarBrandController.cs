@@ -14,6 +14,9 @@ namespace CarAPI.Controllers
     public class zjlCarBrandController : ControllerBase
     {
         CarBll bll = new CarBll();
+
+
+        //品牌显示
         // GET: api/zjlCarBrand
         [HttpGet]
         public IEnumerable<CarBrand> Get()
@@ -21,29 +24,29 @@ namespace CarAPI.Controllers
             return bll.BrandShow();
         }
 
-        // GET: api/zjlCarBrand/5
-        [HttpGet("{id}", Name = "Get")]
-        public string Get(int id)
-        {
-            return "value";
-        }
+        //// GET: api/zjlCarBrand/5
+        //[HttpGet("{id}", Name = "Get")]
+        //public string Get(int id)
+        //{
+        //    return "value";
+        //}
 
-        // POST: api/zjlCarBrand
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
+        //// POST: api/zjlCarBrand
+        //[HttpPost]
+        //public void Post([FromBody] string value)
+        //{
+        //}
 
-        // PUT: api/zjlCarBrand/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
+        //// PUT: api/zjlCarBrand/5
+        //[HttpPut("{id}")]
+        //public void Put(int id, [FromBody] string value)
+        //{
+        //}
 
-        // DELETE: api/ApiWithActions/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
+        //// DELETE: api/ApiWithActions/5
+        //[HttpDelete("{id}")]
+        //public void Delete(int id)
+        //{
+        //}
     }
 }

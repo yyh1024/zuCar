@@ -6,12 +6,13 @@ using Microsoft.AspNetCore.Mvc;
 using Model;
 using BLL;
 using Microsoft.AspNetCore.Cors;
-using DAL;
 
 namespace ApiCore.Controllers
 {
     //[EnableCors("any")] //跨域配置
-    [Route("api/[controller]")]
+
+    [Route("api/[controller]/[action]")]//修改路由
+    //[Route("api/[controller]")]//默认路由
     [ApiController]
     public class UserController : ControllerBase
     {
@@ -25,15 +26,6 @@ namespace ApiCore.Controllers
         public List<Users> Get()
         {
             return userBll.UserShow();
-        }
-        /// <summary>
-        /// 验证码传递
-        /// </summary>
-        /// <returns></returns>
-        [HttpGet]
-        public string GetRandomMailCode()
-        {
-            return userBll.CreateRandomMailCode();
         }
         /// <summary>
         /// 注册用户
@@ -84,8 +76,10 @@ namespace ApiCore.Controllers
         /// </summary>
         /// <param name="Email"></param>
         /// <returns></returns>
+        //[Route("api/[controller]/Send")]
+        //// GET: api/Admins3/5
         [HttpGet]
-        public bool SendMailMessage(string Email)
+        public string SendMailMessage(string Email)
         {
             return userBll.SendMailMessage(Email);
         }

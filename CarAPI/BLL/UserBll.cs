@@ -60,18 +60,11 @@ namespace BLL
             return userDAL.DelUsers(id);
         }
         /// <summary>
-        ///  生成随机验证码
-        /// </summary>
-        public string CreateRandomMailCode()
-        {
-            return userDAL.CreateRandomMailCode();
-        }
-        /// <summary>
         ///  发送邮件验证码
         /// </summary>
         /// <param name="RecEmailAddress">收件人邮箱地址</param>
         /// <returns></returns>
-        public bool SendMailMessage(string Email)
+        public string SendMailMessage(string Email)
         {
             return userDAL.SendMailMessage(Email);
         }
