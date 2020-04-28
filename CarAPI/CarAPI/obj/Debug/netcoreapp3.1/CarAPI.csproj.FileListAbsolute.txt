@@ -70,3 +70,5 @@ L:\实训一\7组\zuCar\CarAPI\CarAPI\obj\Debug\netcoreapp3.1\staticwebassets\Ca
 L:\实训一\7组\zuCar\CarAPI\CarAPI\obj\Debug\netcoreapp3.1\CarAPI.dll
 L:\实训一\7组\zuCar\CarAPI\CarAPI\obj\Debug\netcoreapp3.1\CarAPI.pdb
 L:\实训一\7组\zuCar\CarAPI\CarAPI\obj\Debug\netcoreapp3.1\CarAPI.genruntimeconfig.cache
+L:\实训一\百车汇汽车租赁系统mvc\CarAPI\CarAPI\obj\Debug\netcoreapp3.1\CarAPI.dll
+L:\实训一\百车汇汽车租赁系统mvc\CarAPI\CarAPI\obj\Debug\netcoreapp3.1\CarAPI.pdb

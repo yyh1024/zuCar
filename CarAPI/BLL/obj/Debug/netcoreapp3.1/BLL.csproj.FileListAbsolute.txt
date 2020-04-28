@@ -26,3 +26,5 @@ L:\实训一\7组\zuCar\CarAPI\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfo.cs
 L:\实训一\7组\zuCar\CarAPI\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CopyComplete
 L:\实训一\7组\zuCar\CarAPI\BLL\obj\Debug\netcoreapp3.1\BLL.dll
 L:\实训一\7组\zuCar\CarAPI\BLL\obj\Debug\netcoreapp3.1\BLL.pdb
+L:\实训一\百车汇汽车租赁系统mvc\CarAPI\BLL\obj\Debug\netcoreapp3.1\BLL.dll
+L:\实训一\百车汇汽车租赁系统mvc\CarAPI\BLL\obj\Debug\netcoreapp3.1\BLL.pdb
