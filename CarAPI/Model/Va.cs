@@ -19,4 +19,5 @@ namespace Model
         public bool Vstate { get; set; }
         public int uid { get; set; }
     }
+
 }
