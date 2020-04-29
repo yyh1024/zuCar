@@ -59,5 +59,6 @@ namespace DAL
             string str = $"Update Orders set Hitch=4 where OrdersID={o.OrdersID}";
             return DBHelper.ExecuteNonQuery(str);
         }
+
     }
 }

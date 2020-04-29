@@ -1,15 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\MvcCroe",
-    "\\MvcCroe\\MvcCroe",
-    "\\MvcCroe\\MvcCroe\\obj",
-    "\\MvcCroe\\MvcCroe\\obj\\Debug",
-    "\\MvcCroe\\MvcCroe\\obj\\Release",
-    "\\MvcCroe\\MvcCroe\\obj\\Release\\netcoreapp3.1",
-    "\\MvcCroe\\MvcCroe\\Views",
-    "\\MvcCroe\\MvcCroe\\Views\\My97DatePicker\\My97DatePicker",
-    "\\MvcCroe\\MvcCroe\\Views\\zjlCar"
+    ""
   ],
+  "SelectedNode": "\\.gitignore",
   "PreviewInSolutionExplorer": false
 }
