@@ -28,17 +28,22 @@ namespace CarAPI
         public void ConfigureServices(IServiceCollection services)
         {
             //配置跨域处理，允许所有来源
-            services.AddCors(options =>
-            {
-                options.AddPolicy(MyAllowSpecificOrigins,
+            //services.AddCors(options =>
+            //{
+            //    options.AddPolicy(MyAllowSpecificOrigins,
 
-                    builder => builder.AllowAnyOrigin()
+            //        builder => builder.AllowAnyOrigin()
 
-                    .WithMethods("GET", "POST", "HEAD", "PUT", "DELETE", "OPTIONS")
+            //        .WithMethods("GET", "POST", "HEAD", "PUT", "DELETE", "OPTIONS")
 
-                    );
+            //        );
 
-            });
+            //});
+            services.AddCors(
+                options => options.AddPolicy
+                ("first", builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader())
+                );
+
 
             services.AddControllers();
         }
@@ -80,8 +85,9 @@ namespace CarAPI
 
             app.UseRouting();
 
-            app.UseCors(MyAllowSpecificOrigins);
+            //app.UseCors(MyAllowSpecificOrigins);
 
+            app.UseCors("first");
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
