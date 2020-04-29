@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CarAPI",
+    "\\CarAPI\\CarAPI",
+    "\\CarAPI\\CarAPI\\Controllers",
+    "\\CarAPI\\DAL"
   ],
-  "SelectedNode": "\\.gitignore",
+  "SelectedNode": "\\CarAPI\\CarAPI\\Controllers\\Admins2Controller.cs",
   "PreviewInSolutionExplorer": false
 }
