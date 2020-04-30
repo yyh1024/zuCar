@@ -467,25 +467,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lenovo\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\吕静\\.nuget\\packages\\": {},
+    "D:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\实训1\\ApiCar\\CarAPI\\DAL\\DAL.csproj",
+      "projectUniqueName": "L:\\实训一\\项目百车汇\\百车汇汽车租赁系统啊api\\CarAPI\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "F:\\实训1\\ApiCar\\CarAPI\\DAL\\DAL.csproj",
-      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "F:\\实训1\\ApiCar\\CarAPI\\DAL\\obj\\",
+      "projectPath": "L:\\实训一\\项目百车汇\\百车汇汽车租赁系统啊api\\CarAPI\\DAL\\DAL.csproj",
+      "packagesPath": "C:\\Users\\吕静\\.nuget\\packages\\",
+      "outputPath": "L:\\实训一\\项目百车汇\\百车汇汽车租赁系统啊api\\CarAPI\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "D:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\吕静\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -499,8 +499,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "F:\\实训1\\ApiCar\\CarAPI\\Model\\Model.csproj": {
-              "projectPath": "F:\\实训1\\ApiCar\\CarAPI\\Model\\Model.csproj"
+            "L:\\实训一\\项目百车汇\\百车汇汽车租赁系统啊api\\CarAPI\\Model\\Model.csproj": {
+              "projectPath": "L:\\实训一\\项目百车汇\\百车汇汽车租赁系统啊api\\CarAPI\\Model\\Model.csproj"
             }
           }
         }

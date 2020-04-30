@@ -1,24 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Model;
-//using System.Linq;
 using System.Net;
 using System.Net.Mail;
-
+using Model;
 
 namespace DAL
 {
-    public class UserDAL
+    public class AdminisLoginDAL
     {
         /// <summary>
         /// 显示全部用户
         /// </summary>
         /// <returns></returns>
-        public List<Users> UserShow()
+        public List<Admins> AdminsShow()
         {
-            string sql = "select *from Users";
-            return DBHelper.GetToList<Users>(sql);
+            string sql = "select *from Admins";
+            return DBHelper.GetToList<Admins>(sql);
         }
 
         /// <summary>
@@ -26,9 +24,9 @@ namespace DAL
         /// </summary>
         /// <param name="m"></param>
         /// <returns></returns>
-        public int AddUsers(Users m)
+        public int AddAdmins(Admins m)
         {
-            string str = $"insert into Users values('{m.Name}','{m.Pwd}','{m.Email}')";
+            string str = $"insert into Admins values('{m.Name}','{m.Pwd}','{m.Email}')";
             return DBHelper.ExecuteNonQuery(str);
         }
 
@@ -37,9 +35,9 @@ namespace DAL
         /// </summary>
         /// <param name="m"></param>
         /// <returns></returns>
-        public int Login(Users m)
+        public int Login(Admins m)
         {
-            string sql = $"select count(1) from Users where Name='{m.Name}' and Pwd='{m.Pwd}'";
+            string sql = $"select count(1) from Admins where Name='{m.Name}' and Pwd='{m.Pwd}'";
             return (int)DBHelper.ExecuteScalar(sql);
         }
         /// <summary>
@@ -47,9 +45,9 @@ namespace DAL
         /// </summary>
         /// <param name="m"></param>
         /// <returns></returns>
-        public int AlterUsers(Users m)
+        public int AlterAdmins(Admins m)
         {
-            string str = $"update Users set Name='{m.Name}',Pwd='{m.Pwd}',Email='{m.Email}'where Uid={m.Uid}";
+            string str = $"update Admins set Name='{m.Name}',Pwd='{m.Pwd}',Email='{m.Email}'where Uid={m.Uid}";
             return DBHelper.ExecuteNonQuery(str);
         }
         /// <summary>
@@ -57,22 +55,11 @@ namespace DAL
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        public int DelUsers(string id)
+        public int DelAdmins(string id)
         {
-            string str = $"delete from Users where Uid in(" + id + ")";
+            string str = $"delete from Admins where Uid in(" + id + ")";
             return DBHelper.ExecuteNonQuery(str);
         }
-        //邮箱验证码功能
-        /// <summary>
-        ///  生成随机验证码
-        /// </summary>
-        //public string CreateRandomMailCode()
-        //{
-            
-        //    return randomCode;
-        //}
-
-
         /// <summary>
         ///  发送邮件验证码
         /// </summary>
@@ -104,7 +91,7 @@ namespace DAL
                 //}
                 //else
                 //{
-                    code = (char)('0' + (char)(randNum % 10));//随机数字
+                code = (char)('0' + (char)(randNum % 10));//随机数字
                 //}
                 randomCode += code.ToString();
             }
@@ -138,5 +125,6 @@ namespace DAL
             }
             return randomCode;
         }
-    }
+    
+}
 }

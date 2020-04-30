@@ -11,7 +11,7 @@ namespace ApiCore.Controllers
 {
     //[EnableCors("any")] //跨域配置
 
-    [Route("api/[controller]/[action]")]//修改路由
+   [Route("api/[controller]/[action]")]//修改路由
     //[Route("api/[controller]")]//默认路由
     [ApiController]
     public class UserController : ControllerBase
@@ -61,16 +61,7 @@ namespace ApiCore.Controllers
         {
             return userBll.DelUsers(id);
         }
-        /// <summary>
-        /// 用户登录方法
-        /// </summary>
-        /// <param name="m"></param>
-        /// <returns></returns>
-        [HttpPost]
-        public int LoginUser([FromBody] Users m)
-        {
-            return userBll.Login(m);
-        }
+
         /// <summary>
         /// 发送邮件的方法
         /// </summary>
