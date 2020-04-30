@@ -12,7 +12,7 @@ namespace CarAPI.Controllers
 {
     //[Route("api/[controller]/[action]")]//修改路由
     [Route("api/[controller]")]
-    [EnableCors("_myAllowSpecificOrigins")]
+    [EnableCors("first")]
     [ApiController]
     public class UserLoginController : ControllerBase
     {

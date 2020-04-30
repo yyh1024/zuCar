@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XkjU+hfE0ZGQCMPfKfmlzakky2qMvpbwicM62/8d/j1BvhUWRM3icaAkiaYcdumb25+rt0xJzpSWsvHvKsHlAg==",
+  "dgSpecHash": "OTZgWAe+CW6u0bF5eevLkoacVcPIKxtQHGrNMsFF5F3QRl4kqI3S2g2X4Ws8ha8XzL947GWonov/rJK742OiSQ==",
   "success": true,
-  "projectFilePath": "L:\\实训一\\项目百车汇\\百车汇汽车租赁系统啊api\\CarAPI\\Model\\Model.csproj",
+  "projectFilePath": "L:\\实训一\\百车汇汽车租赁系统啊api\\CarAPI\\Model\\Model.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
