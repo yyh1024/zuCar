@@ -10,8 +10,8 @@ using Microsoft.AspNetCore.Cors;
 namespace ApiCore.Controllers
 {
     //[EnableCors("any")] //跨域配置
-
-   [Route("api/[controller]/[action]")]//修改路由
+    [EnableCors("first")]
+    [Route("api/[controller]/[action]")]//修改路由
     //[Route("api/[controller]")]//默认路由
     [ApiController]
     public class UserController : ControllerBase

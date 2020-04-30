@@ -6,10 +6,12 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using BLL;
 using Model;
+using Microsoft.AspNetCore.Cors;
 
 namespace CarAPI.Controllers
 {
     [Route("api/[controller]")]
+    [EnableCors("first")]
     [ApiController]
     public class zjlCarType5Controller : ControllerBase
     {

@@ -13,6 +13,7 @@ using Microsoft.AspNetCore.Cors;
 namespace ApiCore.Controllers
 {
     //[EnableCors("any")] //跨域配置
+    [EnableCors("first")]
     [Route("api/[controller]")]
     [ApiController]
     public class Admins3Controller : ControllerBase

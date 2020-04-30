@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Model;
 using BLL;
+using Microsoft.AspNetCore.Cors;
 
 namespace CarAPI.Controllers
 {
+    [EnableCors("first")]
     [Route("api/[controller]")]
     [ApiController]
     public class AdminsLoginController : ControllerBase
