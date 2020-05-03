@@ -26,7 +26,7 @@ namespace DAL
         /// <returns></returns>
         public int AddAdmins(Admins m)
         {
-            string str = $"insert into Admins values('{m.Name}','{m.Pwd}','{m.Email}')";
+            string str = $"insert into Admins values('{m.Name}','123','{m.Email}')";
             return DBHelper.ExecuteNonQuery(str);
         }
 
@@ -37,7 +37,7 @@ namespace DAL
         /// <returns></returns>
         public int Login(Admins m)
         {
-            string sql = $"select count(1) from Admins where Name='{m.Name}' and Pwd='{m.Pwd}'";
+            string sql = $"select count(1) from Admins where Name='{m.Name}' and Email='{m.Email}'";
             return (int)DBHelper.ExecuteScalar(sql);
         }
         /// <summary>
@@ -47,7 +47,7 @@ namespace DAL
         /// <returns></returns>
         public int AlterAdmins(Admins m)
         {
-            string str = $"update Admins set Name='{m.Name}',Pwd='{m.Pwd}',Email='{m.Email}'where Uid={m.Uid}";
+            string str = $"update Admins set Name='{m.Name}',Pwd='123',Email='{m.Email}'where Uid={m.Uid}";
             return DBHelper.ExecuteNonQuery(str);
         }
         /// <summary>
