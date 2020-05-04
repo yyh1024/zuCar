@@ -9,17 +9,17 @@ using BLL;
 using System.Data;
 using System.Data.SqlClient;
 using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Hosting;
 
 namespace ApiCore.Controllers
 {
-    //[EnableCors("any")] //跨域配置
     [EnableCors("first")]
     [Route("api/[controller]")]
     [ApiController]
     public class AdminsController : ControllerBase
     {
         AdminsBLL bll = new AdminsBLL();
-
+        
         //车辆预定信息
         [HttpGet]
         public PageInfo Get(int currentPage = 1, int pageSize = 2)

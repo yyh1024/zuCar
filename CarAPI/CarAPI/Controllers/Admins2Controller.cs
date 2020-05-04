@@ -22,7 +22,7 @@ namespace ApiCore.Controllers
 
         //用户挂靠的车辆信息
         [HttpGet]
-        public PageInfo Get(int currentPage = 1, int pageSize = 2)
+        public PageInfo Get(int currentPage = 1, int pageSize = 5)
         {
             var list = bll.VaShow();
             var p = new PageInfo

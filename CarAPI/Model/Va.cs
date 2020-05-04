@@ -18,6 +18,8 @@ namespace Model
         public decimal Price { get; set; }
         public bool Vstate { get; set; }
         public int uid { get; set; }
+        public string Type { get; set; }
+        public string Brand { get; set; }
     }
 
 }

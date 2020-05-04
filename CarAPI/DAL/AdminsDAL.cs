@@ -20,7 +20,7 @@ namespace DAL
         //用户挂靠的车辆信息
         public List<Va> VaShow()
         {
-            string str = $"select * from Va";
+            string str = $"select * from CarType c join Va v on c.CarTypeID=v.cid join CarBrand b on v.bid = b.CarBrandID";
             return DBHelper.GetToList<Va>(str);
         }
 
