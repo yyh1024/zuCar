@@ -36,3 +36,15 @@ L:\实训一\百车汇汽车租赁系统啊api\CarAPI\DAL\obj\Debug\netcoreapp3.
 L:\实训一\百车汇汽车租赁系统啊api\CarAPI\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CopyComplete
 L:\实训一\百车汇汽车租赁系统啊api\CarAPI\DAL\obj\Debug\netcoreapp3.1\DAL.dll
 L:\实训一\百车汇汽车租赁系统啊api\CarAPI\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+D:\A_Githup\thisOnline\_CarApi\CarAPI\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+D:\A_Githup\thisOnline\_CarApi\CarAPI\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+D:\A_Githup\thisOnline\_CarApi\CarAPI\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+D:\A_Githup\thisOnline\_CarApi\CarAPI\DAL\bin\Debug\netcoreapp3.1\Model.dll
+D:\A_Githup\thisOnline\_CarApi\CarAPI\DAL\bin\Debug\netcoreapp3.1\Model.pdb
+D:\A_Githup\thisOnline\_CarApi\CarAPI\DAL\obj\Debug\netcoreapp3.1\DAL.csprojAssemblyReference.cache
+D:\A_Githup\thisOnline\_CarApi\CarAPI\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+D:\A_Githup\thisOnline\_CarApi\CarAPI\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+D:\A_Githup\thisOnline\_CarApi\CarAPI\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+D:\A_Githup\thisOnline\_CarApi\CarAPI\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CopyComplete
+D:\A_Githup\thisOnline\_CarApi\CarAPI\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+D:\A_Githup\thisOnline\_CarApi\CarAPI\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
