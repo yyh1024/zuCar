@@ -43,6 +43,27 @@ namespace CarAPI
                 options => options.AddPolicy
                 ("first", builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader())
                 );
+            #region 跨域配置ycx（报错的话删除不用问本人）
+
+            services.AddCors(options =>
+            {
+                services.AddCors(options => {
+
+                    options.AddPolicy("CorsPolicy", builder => builder.AllowAnyOrigin().AllowAnyHeader().AllowCredentials().Build());
+                });
+                services.AddControllers();
+
+
+                options.AddPolicy("CorsPolicy",
+                    builder => builder.AllowAnyOrigin()
+                    .AllowAnyMethod()
+                    .AllowAnyHeader()
+                    .AllowCredentials());
+            });
+
+            #endregion
+
+
 
 
             services.AddControllers();

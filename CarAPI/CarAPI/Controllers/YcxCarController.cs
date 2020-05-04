@@ -11,8 +11,7 @@ using Model;
 
 namespace CarAPI.Controllers
 {
-    [Route("CarY")]
-    [EnableCors("first")]
+    [Route("CarY")]    
     [ApiController]
     public class YcxCarController : ControllerBase
     {
@@ -49,7 +48,7 @@ namespace CarAPI.Controllers
         }
 
         [HttpPost(template:"selectcar")]
-        public ActionResult<IEnumerable<CarInfo>> SelectCarOper(string name ,string carP,string carTyep)
+        public ActionResult<IEnumerable<CarInfo>> SelectCarOper(string carname ,string carP,string carTyep)
         {
             var authors = new List<CarInfo>();
 
