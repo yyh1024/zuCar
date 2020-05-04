@@ -4,48 +4,39 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using BLL;
 using Model;
+using BLL;
 using Microsoft.AspNetCore.Cors;
 
-namespace ApiCore.Controllers
+namespace CarAPI.Controllers
 {
-    //[EnableCors("any")] //跨域配置
-    [Route("api/[controller]")]
     [EnableCors("first")]
+    [Route("api/[controller]")]
     [ApiController]
-    public class zjlCar2Controller : ControllerBase
+    public class AdminsLoginController : ControllerBase
     {
-        CarBll bll = new CarBll();
-
-        //个人挂靠车辆显示
-        // GET: api/zjlCar2
+        AdminisLoginBLL AdminisLogin = new AdminisLoginBLL();
         [HttpGet]
-        public IEnumerable<Va> Get(int UsersId)
+        public IEnumerable<string> Get()
         {
-            return bll.VaShow(UsersId);
+            return new string[] { "value1", "value2" };
         }
 
-
-
-        // GET: api/zjlCar2/5
+        // GET: api/AdminsLogin/5
         //[HttpGet("{id}", Name = "Get")]
         //public string Get(int id)
         //{
         //    return "value";
         //}
 
-
-
-        //用户挂靠车辆
-        // POST: api/zjlCar2
+        // POST: api/AdminsLogin
         [HttpPost]
-        public int Post(Va v)
+        public int Post([FromBody]Admins m)
         {
-            return bll.AddVa(v);
+            return AdminisLogin.Login(m);
         }
 
-        // PUT: api/zjlCar2/5
+        // PUT: api/AdminsLogin/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
         {

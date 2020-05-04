@@ -12,6 +12,7 @@ namespace ApiCore.Controllers
 {
     //[EnableCors("any")] //跨域配置
     [Route("api/[controller]")]
+    [EnableCors("first")]
     [ApiController]
     public class zjlCarController : ControllerBase
     {
