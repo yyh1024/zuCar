@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UOG9EphgAGiaoDEJFEhTXwBsBzISmiMu7yR2SjQTARYq8+3l1t+S5b+zlhoC+Ec08aNXKfAzRrIPABseq4/zGQ==",
+  "dgSpecHash": "Vhu8TUOegrvL5a0reG9iDNaR8mGibaAXHuot/l9h/AlaMDLGOZ9ePzz1CVOrnlSjoi3u1oqG7QSbcJ1tFxvAMg==",
   "success": true,
-  "projectFilePath": "L:\\实训一\\百车汇汽车租赁系统啊api\\CarAPI\\BLL\\BLL.csproj",
+  "projectFilePath": "L:\\实训一\\百车汇汽车租赁系统api\\CarAPI\\BLL\\BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\吕静\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\吕静\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

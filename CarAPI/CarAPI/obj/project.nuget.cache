@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iTbVaDZRp/CgQ87yqxJxTJjNKYGZIJ3N07zra9A3ieCWoiTdQ6LsnsBX5G6kEQMc2tdEbFJA09PekwgJgUHytg==",
+  "dgSpecHash": "EVF7hqNGLDQw7eo820E1YJwMG0X4jZhxLtmfvc5QGCKOeDCj//VCX8iKpOgy+Ox1YJAdTocGtBvftlcXe6dBFw==",
   "success": true,
-  "projectFilePath": "L:\\实训一\\百车汇汽车租赁系统啊api\\CarAPI\\CarAPI\\CarAPI.csproj",
+  "projectFilePath": "L:\\实训一\\百车汇汽车租赁系统api\\CarAPI\\CarAPI\\CarAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
