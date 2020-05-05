@@ -10,7 +10,6 @@ using Microsoft.AspNetCore.Cors;
 
 namespace CarAPI.Controllers
 {
-    //[Route("api/[controller]/[action]")]//修改路由
     [Route("api/[controller]")]
     [EnableCors("first")]
     [ApiController]
