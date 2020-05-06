@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\A_Githup\\thisOnline\\_CarApi\\CarAPI\\BLL\\BLL.csproj": {}
+    "D:\\物联网\\实训\\CarAPI3\\CarAPI\\BLL\\BLL.csproj": {}
   },
   "projects": {
-    "D:\\A_Githup\\thisOnline\\_CarApi\\CarAPI\\BLL\\BLL.csproj": {
+    "D:\\物联网\\实训\\CarAPI3\\CarAPI\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\A_Githup\\thisOnline\\_CarApi\\CarAPI\\BLL\\BLL.csproj",
+        "projectUniqueName": "D:\\物联网\\实训\\CarAPI3\\CarAPI\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "D:\\A_Githup\\thisOnline\\_CarApi\\CarAPI\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\96549\\.nuget\\packages\\",
-        "outputPath": "D:\\A_Githup\\thisOnline\\_CarApi\\CarAPI\\BLL\\obj\\",
+        "projectPath": "D:\\物联网\\实训\\CarAPI3\\CarAPI\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\张凯\\.nuget\\packages\\",
+        "outputPath": "D:\\物联网\\实训\\CarAPI3\\CarAPI\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\96549\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\张凯\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -30,11 +32,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\A_Githup\\thisOnline\\_CarApi\\CarAPI\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\A_Githup\\thisOnline\\_CarApi\\CarAPI\\DAL\\DAL.csproj"
+              "D:\\物联网\\实训\\CarAPI3\\CarAPI\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\物联网\\实训\\CarAPI3\\CarAPI\\DAL\\DAL.csproj"
               },
-              "D:\\A_Githup\\thisOnline\\_CarApi\\CarAPI\\Model\\Model.csproj": {
-                "projectPath": "D:\\A_Githup\\thisOnline\\_CarApi\\CarAPI\\Model\\Model.csproj"
+              "D:\\物联网\\实训\\CarAPI3\\CarAPI\\Model\\Model.csproj": {
+                "projectPath": "D:\\物联网\\实训\\CarAPI3\\CarAPI\\Model\\Model.csproj"
               }
             }
           }
@@ -72,21 +74,23 @@
         }
       }
     },
-    "D:\\A_Githup\\thisOnline\\_CarApi\\CarAPI\\DAL\\DAL.csproj": {
+    "D:\\物联网\\实训\\CarAPI3\\CarAPI\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\A_Githup\\thisOnline\\_CarApi\\CarAPI\\DAL\\DAL.csproj",
+        "projectUniqueName": "D:\\物联网\\实训\\CarAPI3\\CarAPI\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\A_Githup\\thisOnline\\_CarApi\\CarAPI\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\96549\\.nuget\\packages\\",
-        "outputPath": "D:\\A_Githup\\thisOnline\\_CarApi\\CarAPI\\DAL\\obj\\",
+        "projectPath": "D:\\物联网\\实训\\CarAPI3\\CarAPI\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\张凯\\.nuget\\packages\\",
+        "outputPath": "D:\\物联网\\实训\\CarAPI3\\CarAPI\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\96549\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\张凯\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -98,8 +102,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\A_Githup\\thisOnline\\_CarApi\\CarAPI\\Model\\Model.csproj": {
-                "projectPath": "D:\\A_Githup\\thisOnline\\_CarApi\\CarAPI\\Model\\Model.csproj"
+              "D:\\物联网\\实训\\CarAPI3\\CarAPI\\Model\\Model.csproj": {
+                "projectPath": "D:\\物联网\\实训\\CarAPI3\\CarAPI\\Model\\Model.csproj"
               }
             }
           }
@@ -137,21 +141,23 @@
         }
       }
     },
-    "D:\\A_Githup\\thisOnline\\_CarApi\\CarAPI\\Model\\Model.csproj": {
+    "D:\\物联网\\实训\\CarAPI3\\CarAPI\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\A_Githup\\thisOnline\\_CarApi\\CarAPI\\Model\\Model.csproj",
+        "projectUniqueName": "D:\\物联网\\实训\\CarAPI3\\CarAPI\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "D:\\A_Githup\\thisOnline\\_CarApi\\CarAPI\\Model\\Model.csproj",
-        "packagesPath": "C:\\Users\\96549\\.nuget\\packages\\",
-        "outputPath": "D:\\A_Githup\\thisOnline\\_CarApi\\CarAPI\\Model\\obj\\",
+        "projectPath": "D:\\物联网\\实训\\CarAPI3\\CarAPI\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\张凯\\.nuget\\packages\\",
+        "outputPath": "D:\\物联网\\实训\\CarAPI3\\CarAPI\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\96549\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\张凯\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"

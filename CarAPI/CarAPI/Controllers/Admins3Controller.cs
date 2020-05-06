@@ -27,12 +27,12 @@ namespace ApiCore.Controllers
         //    return new string[] { "value1", "value2" };
         //}
 
-        //// GET: api/Admins3/5
-        //[HttpGet("{id}", Name = "Get2")]
-        //public string Get(int id)
-        //{
-        //    return "value";
-        //}
+        // GET: api/Admins3/5
+        [HttpGet("{id}", Name = "Get")]
+        public Breakdown Get(int id)
+        {
+            return bll.GetBreakdown(id);
+        }
 
         // POST: api/Admins3
         //[HttpPost]
