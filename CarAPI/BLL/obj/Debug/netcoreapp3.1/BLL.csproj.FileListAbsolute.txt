@@ -70,3 +70,17 @@ L:\实训一\百车汇汽车租赁系统api\CarAPI\BLL\obj\Debug\netcoreapp3.1\B
 L:\实训一\百车汇汽车租赁系统api\CarAPI\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CopyComplete
 L:\实训一\百车汇汽车租赁系统api\CarAPI\BLL\obj\Debug\netcoreapp3.1\BLL.dll
 L:\实训一\百车汇汽车租赁系统api\CarAPI\BLL\obj\Debug\netcoreapp3.1\BLL.pdb
+F:\实训1\ApiCar1\CarAPI\BLL\bin\Debug\netcoreapp3.1\BLL.deps.json
+F:\实训1\ApiCar1\CarAPI\BLL\bin\Debug\netcoreapp3.1\BLL.dll
+F:\实训1\ApiCar1\CarAPI\BLL\bin\Debug\netcoreapp3.1\BLL.pdb
+F:\实训1\ApiCar1\CarAPI\BLL\bin\Debug\netcoreapp3.1\DAL.dll
+F:\实训1\ApiCar1\CarAPI\BLL\bin\Debug\netcoreapp3.1\Model.dll
+F:\实训1\ApiCar1\CarAPI\BLL\bin\Debug\netcoreapp3.1\DAL.pdb
+F:\实训1\ApiCar1\CarAPI\BLL\bin\Debug\netcoreapp3.1\Model.pdb
+F:\实训1\ApiCar1\CarAPI\BLL\obj\Debug\netcoreapp3.1\BLL.csprojAssemblyReference.cache
+F:\实训1\ApiCar1\CarAPI\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CoreCompileInputs.cache
+F:\实训1\ApiCar1\CarAPI\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfoInputs.cache
+F:\实训1\ApiCar1\CarAPI\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfo.cs
+F:\实训1\ApiCar1\CarAPI\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CopyComplete
+F:\实训1\ApiCar1\CarAPI\BLL\obj\Debug\netcoreapp3.1\BLL.dll
+F:\实训1\ApiCar1\CarAPI\BLL\obj\Debug\netcoreapp3.1\BLL.pdb
