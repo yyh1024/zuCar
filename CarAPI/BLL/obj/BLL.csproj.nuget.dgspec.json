@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\物联网\\实训\\CarAPI3\\CarAPI\\BLL\\BLL.csproj": {}
+    "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\BLL\\BLL.csproj": {}
   },
   "projects": {
-    "D:\\物联网\\实训\\CarAPI3\\CarAPI\\BLL\\BLL.csproj": {
+    "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\物联网\\实训\\CarAPI3\\CarAPI\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "D:\\物联网\\实训\\CarAPI3\\CarAPI\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\张凯\\.nuget\\packages\\",
-        "outputPath": "D:\\物联网\\实训\\CarAPI3\\CarAPI\\BLL\\obj\\",
+        "projectPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\o\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\张凯\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\o\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,11 +32,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\物联网\\实训\\CarAPI3\\CarAPI\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\物联网\\实训\\CarAPI3\\CarAPI\\DAL\\DAL.csproj"
+              "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\DAL\\DAL.csproj"
               },
-              "D:\\物联网\\实训\\CarAPI3\\CarAPI\\Model\\Model.csproj": {
-                "projectPath": "D:\\物联网\\实训\\CarAPI3\\CarAPI\\Model\\Model.csproj"
+              "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\Model\\Model.csproj"
               }
             }
           }
@@ -70,25 +70,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\物联网\\实训\\CarAPI3\\CarAPI\\DAL\\DAL.csproj": {
+    "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\物联网\\实训\\CarAPI3\\CarAPI\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\物联网\\实训\\CarAPI3\\CarAPI\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\张凯\\.nuget\\packages\\",
-        "outputPath": "D:\\物联网\\实训\\CarAPI3\\CarAPI\\DAL\\obj\\",
+        "projectPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\o\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\张凯\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\o\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -102,8 +102,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\物联网\\实训\\CarAPI3\\CarAPI\\Model\\Model.csproj": {
-                "projectPath": "D:\\物联网\\实训\\CarAPI3\\CarAPI\\Model\\Model.csproj"
+              "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\Model\\Model.csproj"
               }
             }
           }
@@ -137,25 +137,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\物联网\\实训\\CarAPI3\\CarAPI\\Model\\Model.csproj": {
+    "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\物联网\\实训\\CarAPI3\\CarAPI\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "D:\\物联网\\实训\\CarAPI3\\CarAPI\\Model\\Model.csproj",
-        "packagesPath": "C:\\Users\\张凯\\.nuget\\packages\\",
-        "outputPath": "D:\\物联网\\实训\\CarAPI3\\CarAPI\\Model\\obj\\",
+        "projectPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\o\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\张凯\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\o\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -194,7 +194,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
