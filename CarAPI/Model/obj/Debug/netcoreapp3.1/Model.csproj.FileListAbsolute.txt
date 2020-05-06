@@ -43,3 +43,12 @@ D:\A_Githup\thisOnline\_CarApi\CarAPI\Model\obj\Debug\netcoreapp3.1\Model.Assemb
 D:\A_Githup\thisOnline\_CarApi\CarAPI\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfo.cs
 D:\A_Githup\thisOnline\_CarApi\CarAPI\Model\obj\Debug\netcoreapp3.1\Model.dll
 D:\A_Githup\thisOnline\_CarApi\CarAPI\Model\obj\Debug\netcoreapp3.1\Model.pdb
+L:\实训一\百车汇汽车租赁系统api\CarAPI\Model\bin\Debug\netcoreapp3.1\Model.deps.json
+L:\实训一\百车汇汽车租赁系统api\CarAPI\Model\bin\Debug\netcoreapp3.1\Model.dll
+L:\实训一\百车汇汽车租赁系统api\CarAPI\Model\bin\Debug\netcoreapp3.1\Model.pdb
+L:\实训一\百车汇汽车租赁系统api\CarAPI\Model\obj\Debug\netcoreapp3.1\Model.csprojAssemblyReference.cache
+L:\实训一\百车汇汽车租赁系统api\CarAPI\Model\obj\Debug\netcoreapp3.1\Model.csproj.CoreCompileInputs.cache
+L:\实训一\百车汇汽车租赁系统api\CarAPI\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfoInputs.cache
+L:\实训一\百车汇汽车租赁系统api\CarAPI\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfo.cs
+L:\实训一\百车汇汽车租赁系统api\CarAPI\Model\obj\Debug\netcoreapp3.1\Model.dll
+L:\实训一\百车汇汽车租赁系统api\CarAPI\Model\obj\Debug\netcoreapp3.1\Model.pdb
