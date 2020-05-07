@@ -17,9 +17,9 @@ namespace CarAPI.Controllers
     {
         AdminisLoginBLL AdminisLogin = new AdminisLoginBLL();
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<Admins> Get()
         {
-            return new string[] { "value1", "value2" };
+            return AdminisLogin.AdminsShow();
         }
 
         // GET: api/AdminsLogin/5
@@ -31,9 +31,10 @@ namespace CarAPI.Controllers
 
         // POST: api/AdminsLogin
         [HttpPost]
-        public int Post([FromBody]Admins m)
+        public IActionResult Post([FromBody]Admins m)
         {
-            return AdminisLogin.Login(m);
+            int ret = AdminisLogin.Login(m);
+            return new JsonResult(ret);
         }
 
         // PUT: api/AdminsLogin/5

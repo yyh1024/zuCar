@@ -20,7 +20,7 @@ namespace DAL
         }
 
         /// <summary>
-        /// 注册用户
+        /// 管理员注册
         /// </summary>
         /// <param name="m"></param>
         /// <returns></returns>
