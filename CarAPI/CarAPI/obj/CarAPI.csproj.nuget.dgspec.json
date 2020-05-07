@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "L:\\实训一\\百车汇汽车租赁系统api\\CarAPI\\CarAPI\\CarAPI.csproj": {}
+    "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\CarAPI\\CarAPI.csproj": {}
   },
   "projects": {
-    "L:\\实训一\\百车汇汽车租赁系统api\\CarAPI\\BLL\\BLL.csproj": {
+    "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "L:\\实训一\\百车汇汽车租赁系统api\\CarAPI\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "L:\\实训一\\百车汇汽车租赁系统api\\CarAPI\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\吕静\\.nuget\\packages\\",
-        "outputPath": "L:\\实训一\\百车汇汽车租赁系统api\\CarAPI\\BLL\\obj\\",
+        "projectPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\o\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\吕静\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\o\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,11 +32,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "L:\\实训一\\百车汇汽车租赁系统api\\CarAPI\\DAL\\DAL.csproj": {
-                "projectPath": "L:\\实训一\\百车汇汽车租赁系统api\\CarAPI\\DAL\\DAL.csproj"
+              "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\DAL\\DAL.csproj"
               },
-              "L:\\实训一\\百车汇汽车租赁系统api\\CarAPI\\Model\\Model.csproj": {
-                "projectPath": "L:\\实训一\\百车汇汽车租赁系统api\\CarAPI\\Model\\Model.csproj"
+              "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\Model\\Model.csproj"
               }
             }
           }
@@ -74,21 +74,21 @@
         }
       }
     },
-    "L:\\实训一\\百车汇汽车租赁系统api\\CarAPI\\CarAPI\\CarAPI.csproj": {
+    "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\CarAPI\\CarAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "L:\\实训一\\百车汇汽车租赁系统api\\CarAPI\\CarAPI\\CarAPI.csproj",
+        "projectUniqueName": "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\CarAPI\\CarAPI.csproj",
         "projectName": "CarAPI",
-        "projectPath": "L:\\实训一\\百车汇汽车租赁系统api\\CarAPI\\CarAPI\\CarAPI.csproj",
-        "packagesPath": "C:\\Users\\吕静\\.nuget\\packages\\",
-        "outputPath": "L:\\实训一\\百车汇汽车租赁系统api\\CarAPI\\CarAPI\\obj\\",
+        "projectPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\CarAPI\\CarAPI.csproj",
+        "packagesPath": "C:\\Users\\o\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\CarAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\吕静\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\o\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -102,11 +102,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "L:\\实训一\\百车汇汽车租赁系统api\\CarAPI\\BLL\\BLL.csproj": {
-                "projectPath": "L:\\实训一\\百车汇汽车租赁系统api\\CarAPI\\BLL\\BLL.csproj"
+              "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\BLL\\BLL.csproj"
               },
-              "L:\\实训一\\百车汇汽车租赁系统api\\CarAPI\\Model\\Model.csproj": {
-                "projectPath": "L:\\实训一\\百车汇汽车租赁系统api\\CarAPI\\Model\\Model.csproj"
+              "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\Model\\Model.csproj"
               }
             }
           }
@@ -155,21 +155,21 @@
         }
       }
     },
-    "L:\\实训一\\百车汇汽车租赁系统api\\CarAPI\\DAL\\DAL.csproj": {
+    "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "L:\\实训一\\百车汇汽车租赁系统api\\CarAPI\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "L:\\实训一\\百车汇汽车租赁系统api\\CarAPI\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\吕静\\.nuget\\packages\\",
-        "outputPath": "L:\\实训一\\百车汇汽车租赁系统api\\CarAPI\\DAL\\obj\\",
+        "projectPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\o\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\吕静\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\o\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -183,8 +183,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "L:\\实训一\\百车汇汽车租赁系统api\\CarAPI\\Model\\Model.csproj": {
-                "projectPath": "L:\\实训一\\百车汇汽车租赁系统api\\CarAPI\\Model\\Model.csproj"
+              "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\Model\\Model.csproj"
               }
             }
           }
@@ -222,21 +222,21 @@
         }
       }
     },
-    "L:\\实训一\\百车汇汽车租赁系统api\\CarAPI\\Model\\Model.csproj": {
+    "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "L:\\实训一\\百车汇汽车租赁系统api\\CarAPI\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "L:\\实训一\\百车汇汽车租赁系统api\\CarAPI\\Model\\Model.csproj",
-        "packagesPath": "C:\\Users\\吕静\\.nuget\\packages\\",
-        "outputPath": "L:\\实训一\\百车汇汽车租赁系统api\\CarAPI\\Model\\obj\\",
+        "projectPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\o\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\吕静\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\o\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

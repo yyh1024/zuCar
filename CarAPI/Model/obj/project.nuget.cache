@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AvjETHBuTL7CaxSlAx5YvfkPaP8LLqMwcfaebgQBnCJsF2w4IsCoZSgX592uDujLB0VJ38owOGrHCOmtYGet5Q==",
+  "dgSpecHash": "xf+uoAPsMVWE9gNAbQNVuw9hmbKfLgGQ9BpRIPKpSiJA1hgkjriEKDCRYf9JZ3TiLVKvDEYwRSUTafTPnudo1Q==",
   "success": true,
-  "projectFilePath": "L:\\实训一\\百车汇汽车租赁系统api\\CarAPI\\Model\\Model.csproj",
+  "projectFilePath": "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\Model\\Model.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
