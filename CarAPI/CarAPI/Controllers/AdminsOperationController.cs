@@ -30,7 +30,11 @@ namespace CarAPI.Controllers
         //{
         //    return "value";
         //}
-
+        /// <summary>
+        /// 管理员注册
+        /// </summary>
+        /// <param name="m"></param>
+        /// <returns></returns>
         // POST: api/AdminsOperation
         [HttpPost]
         public int Post([FromBody] Admins m)
@@ -38,19 +42,32 @@ namespace CarAPI.Controllers
             return AdminisLogin.AddAdmins(m);
         }
 
-        // PUT: api/AdminsOperation/5
+        /// <summary>
+        /// 修改管理员
+        /// </summary>
+        /// <param name="m"></param>
+        /// <returns></returns>
         [HttpPut("{id}")]
         public int Put([FromBody] Admins m)
         {
             return AdminisLogin.AlterAdmins(m);
         }
 
-        // DELETE: api/ApiWithActions/5
+        /// <summary>
+        /// 删除管理员
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpDelete("{id}")]
         public int Delete(string id)
         {
             return AdminisLogin.DelAdmins(id);
         }
+        /// <summary>
+        /// 发送验证码
+        /// </summary>
+        /// <param name="Email"></param>
+        /// <returns></returns>
         [HttpGet]
         public string SendMailMessage(string Email)
         {

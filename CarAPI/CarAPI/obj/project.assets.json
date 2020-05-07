@@ -7431,25 +7431,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\o\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\吕静\\.nuget\\packages\\": {},
+    "D:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\CarAPI\\CarAPI.csproj",
+      "projectUniqueName": "L:\\实训一\\百车汇汽车租赁系统api\\CarAPI\\CarAPI\\CarAPI.csproj",
       "projectName": "CarAPI",
-      "projectPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\CarAPI\\CarAPI.csproj",
-      "packagesPath": "C:\\Users\\o\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\CarAPI\\obj\\",
+      "projectPath": "L:\\实训一\\百车汇汽车租赁系统api\\CarAPI\\CarAPI\\CarAPI.csproj",
+      "packagesPath": "C:\\Users\\吕静\\.nuget\\packages\\",
+      "outputPath": "L:\\实训一\\百车汇汽车租赁系统api\\CarAPI\\CarAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "D:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\o\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\吕静\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -7463,11 +7463,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\BLL\\BLL.csproj": {
-              "projectPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\BLL\\BLL.csproj"
+            "L:\\实训一\\百车汇汽车租赁系统api\\CarAPI\\BLL\\BLL.csproj": {
+              "projectPath": "L:\\实训一\\百车汇汽车租赁系统api\\CarAPI\\BLL\\BLL.csproj"
             },
-            "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\Model\\Model.csproj": {
-              "projectPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\Model\\Model.csproj"
+            "L:\\实训一\\百车汇汽车租赁系统api\\CarAPI\\Model\\Model.csproj": {
+              "projectPath": "L:\\实训一\\百车汇汽车租赁系统api\\CarAPI\\Model\\Model.csproj"
             }
           }
         }
