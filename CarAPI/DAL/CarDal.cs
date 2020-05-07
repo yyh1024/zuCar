@@ -79,6 +79,11 @@ namespace DAL
             string str = "select * from CarBrand";
             return DBHelper.GetToList<CarBrand>(str);
         }
-
+        //添加故障原因
+        public int AddBreakdown(Breakdown m)
+        {
+            string sql = string.Format("insert into Breakdown values('{0}','{1}','{2}')",m.Reson,m.Phone,m.OrdersID);
+            return DBHelper.ExecuteNonQuery(sql);
+        }
     }
 }
