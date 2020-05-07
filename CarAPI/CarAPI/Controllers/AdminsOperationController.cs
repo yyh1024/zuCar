@@ -11,7 +11,8 @@ using Microsoft.AspNetCore.Cors;
 namespace CarAPI.Controllers
 {
     [EnableCors("first")]
-    [Route("api/[controller]")]
+    //[Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]//修改路由
     [ApiController]
     public class AdminsOperationController : ControllerBase
     {

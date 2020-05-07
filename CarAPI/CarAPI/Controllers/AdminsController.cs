@@ -9,22 +9,33 @@ using BLL;
 using System.Data;
 using System.Data.SqlClient;
 using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Hosting;
 
 namespace ApiCore.Controllers
 {
-    //[EnableCors("any")] //跨域配置
     [EnableCors("first")]
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class AdminsController : ControllerBase
     {
         AdminsBLL bll = new AdminsBLL();
+        [HttpGet]
+        public IEnumerable<CarBrand> CarBrands()
+        {
+            return bll.BrandShow();
+        }
 
+        [HttpGet]
+        public IEnumerable<CarType> CarTypes()
+        {
+            return bll.TypeShow();
+        }
         //车辆预定信息
         [HttpGet]
         public PageInfo Get(int currentPage = 1, int pageSize = 2)
         {
             var list = bll.OrderShow();
+            
             var p = new PageInfo
             {
                 //总记录数
@@ -58,17 +69,18 @@ namespace ApiCore.Controllers
         }
 
         //查看故障报修原因
-        [HttpGet("{id}", Name = "Get2")]
-        public Breakdown Get(int id)
-        {
-            return bll.GetBreakdown(id);
-        }
+        //[HttpGet("{id}", Name = "Get2")]
+        //public Breakdown Get(int id)
+        //{
+        //    return bll.GetBreakdown(id);
+        //}
 
         //新增车辆
         [HttpPost]
         public int Post([FromBody] CarInfo c)
         {
             return bll.AddCarInfo(c);
+
         }
 
         //修改故障状态为：报修通过

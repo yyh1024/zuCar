@@ -12,7 +12,7 @@ namespace DAL
         //全部汽车显示
         public List<CarInfo> CarShow()
         {
-            string CarInfo = $"select * from CarType c join CarInfo i on c.CarTypeID=i.cid join CarBrand b on i.bid = b.CarBrandID join AllCars a on i.CarInfoID = a.CarInfoid join Va v on a.Vaid = v.VID join CarType c2 on v.cid = c2.CarTypeID join CarBrand b2 on v.bid = b2.CarBrandID where v.Vstate = 1 ";
+            string CarInfo = $"select * from CarType c join CarInfo i on c.CarTypeID=i.cid join CarBrand b on i.bid = b.CarBrandID";
             return DBHelper.GetToList<CarInfo>(CarInfo);
         }
 
@@ -26,7 +26,7 @@ namespace DAL
         //车辆挂靠
         public int AddVa(Va v)
         {
-            string AddVa = $"insert into Va values('{v.Image}',{v.bid},'{v.CarName}',{v.Years},{v.cid},'{v.CC}','{v.AMT}',{v.Price},{v.Vstate},{v.uid})";
+            string AddVa = $"insert into Va values('{v.Image}',{v.bid},'{v.CarName}',{v.Years},{v.cid},'{v.CC}','{v.AMT}',{v.Price},Vstate,{v.uid})";
             return DBHelper.ExecuteNonQuery(AddVa);
         }
 
@@ -62,7 +62,7 @@ namespace DAL
         //预定车辆
         public int AddOrders(Orders o)
         {
-            string str = $"insert into Orders values('{o.Oid}',{o.uid},{o.CarInfoid},'{o.Useing}','{o.StartTime}','{o.EndTime}',{o.Driver},{o.Price},{o.ZT},{o.Hitch}) ";
+            string str = $"insert into Orders values('{o.Oid}',{o.uid},{o.CarInfoid},'{o.Useing}','{o.StartTime}','{o.EndTime}',{o.Driver},{o.Price},ZT,'Hitch') ";
             return DBHelper.ExecuteNonQuery(str);
         }
 
@@ -79,6 +79,11 @@ namespace DAL
             string str = "select * from CarBrand";
             return DBHelper.GetToList<CarBrand>(str);
         }
-
+        //添加故障原因
+        public int AddBreakdown(Breakdown m)
+        {
+            string sql = string.Format("insert into Breakdown values('{0}','{1}','{2}')",m.Reson,m.Phone,m.OrdersID);
+            return DBHelper.ExecuteNonQuery(sql);
+        }
     }
 }

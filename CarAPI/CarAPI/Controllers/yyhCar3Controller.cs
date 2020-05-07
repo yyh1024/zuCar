@@ -14,7 +14,7 @@ namespace ApiCore.Controllers
     //[EnableCors("any")] //跨域配置
     [Route("api/[controller]")]
     [ApiController]
-    public class zjlCar3Controller : ControllerBase
+    public class yyhCar3Controller : ControllerBase
     {
 
         CarBll bll = new CarBll();
