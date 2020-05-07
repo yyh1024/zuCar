@@ -10,6 +10,18 @@ namespace BLL
     {
         AdminsDAL dal = new AdminsDAL();
 
+        //车辆类型
+        public List<CarType> TypeShow()
+        {
+            return dal.TypeShow();
+        }
+
+        //车辆品牌
+        public List<CarBrand> BrandShow()
+        {
+            return dal.BrandShow();
+        }
+
         //车辆预定信息
         public List<Orders> OrderShow()
         {

@@ -8,25 +8,25 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Lenovo\\.nuget\\packages\\": {},
+    "C:\\Users\\o\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\实训1\\ApiCar1\\CarAPI\\Model\\Model.csproj",
+      "projectUniqueName": "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\Model\\Model.csproj",
       "projectName": "Model",
-      "projectPath": "F:\\实训1\\ApiCar1\\CarAPI\\Model\\Model.csproj",
-      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "F:\\实训1\\ApiCar1\\CarAPI\\Model\\obj\\",
+      "projectPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\Model\\Model.csproj",
+      "packagesPath": "C:\\Users\\o\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\o\\Source\\Repos\\zuCar\\CarAPI\\Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\o\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],

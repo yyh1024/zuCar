@@ -24,11 +24,11 @@ namespace CarAPI.Controllers
         }
 
         // GET: api/UserLogin/5
-        [HttpGet("{id}", Name = "Get")]
-        public string Get(int id)
-        {
-            return "value";
-        }
+        //[HttpGet("{id}", Name = "Get")]
+        //public string Get(int id)
+        //{
+        //    return "value";
+        //}
         /// <summary>
         /// 用户登录方法
         /// </summary>
