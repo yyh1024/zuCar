@@ -72,5 +72,10 @@ namespace BLL
         {
             return dal.BrandShow();
         }
+        //添加故障原因
+        public int AddBreakdown(Breakdown m)
+        {
+            return dal.AddBreakdown(m);
+        }
     }
 }
