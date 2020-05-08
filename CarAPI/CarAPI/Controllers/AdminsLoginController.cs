@@ -16,11 +16,11 @@ namespace CarAPI.Controllers
     public class AdminsLoginController : ControllerBase
     {
         AdminisLoginBLL AdminisLogin = new AdminisLoginBLL();
-        [HttpGet]
-        public IEnumerable<Admins> Get()
-        {
-            return AdminisLogin.AdminsShow();
-        }
+        //[HttpGet]
+        //public IEnumerable<Admins> Get()
+        //{
+        //    return AdminisLogin.AdminsShow();
+        //}
 
         // GET: api/AdminsLogin/5
         //[HttpGet("{id}", Name = "Get")]
@@ -28,8 +28,13 @@ namespace CarAPI.Controllers
         //{
         //    return "value";
         //}
-
-        // POST: api/AdminsLogin
+       
+            
+       /// <summary>
+       /// 管理员登录
+       /// </summary>
+       /// <param name="m"></param>
+       /// <returns></returns>
         [HttpPost]
         public IActionResult Post([FromBody]Admins m)
         {
